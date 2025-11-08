@@ -1,0 +1,1039 @@
+2025-11-08 15:01:29.641 - INFO - === ROBOT KONTROL SISTEMI BASLATILDI ===
+2025-11-08 15:01:29.641 - INFO - Log dosyasi: robot_control_20251108_150129.log
+2025-11-08 15:01:29.641 - INFO - Baslangic zamani: 2025-11-08 15:01:29
+2025-11-08 15:01:29.641 - INFO - ============================================================
+2025-11-08 15:01:29.641 - INFO - 3 EKSENLI ROBOT KONTROL SISTEMI BASLATILIYOR...
+2025-11-08 15:01:29.641 - INFO - Kamera baslatiliyor...
+2025-11-08 15:01:30.004 - INFO - Kamera 0 basariyla acildi - Cozunurluk: 640x480
+2025-11-08 15:01:30.004 - INFO - SISTEM BASARIYLA BASLATILDI!
+2025-11-08 15:01:30.005 - INFO - KONTROL EKSENLERI:
+2025-11-08 15:01:30.005 - INFO - 1. YAW (Donus) - Sol/Sag kenar farki
+2025-11-08 15:01:30.005 - INFO - 2. X (Sag/Sol) - Merkezin X koordinati
+2025-11-08 15:01:30.005 - INFO - 3. Y (Yukari/Asagi) - Merkezin Y koordinati
+2025-11-08 15:01:30.005 - INFO - HEDEF: Marker'i ekranin tam ortasina getirmek
+2025-11-08 15:01:30.005 - INFO - ============================================================
+2025-11-08 15:01:30.042 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.042 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.202 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.202 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.211 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.212 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.221 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.222 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.228 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.228 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.242 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.243 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.271 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.271 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.302 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.303 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.339 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.339 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.371 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.371 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.403 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.403 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.439 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.439 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.472 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.472 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.504 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.504 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.539 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.539 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.572 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.572 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.604 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.604 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.635 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.635 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.672 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.673 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.704 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.704 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.736 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.736 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.772 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.773 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.804 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.804 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.837 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.837 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:30.873 - INFO - YAW - DEADBAND AKTIF | Kenar Farkı: -3.33px
+2025-11-08 15:01:30.873 - INFO - YAW - SOL:166.2px, SAG:169.5px, Fark:-3.3px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:30.873 - INFO - XY - Merkez:(410,349), Hedef:(320,240), Hata:X:90.0px,Y:109.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:30.905 - INFO - YAW - SOL:161.6px, SAG:164.1px, Fark:-2.5px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:30.905 - INFO - XY - Merkez:(409,325), Hedef:(320,240), Hata:X:89.0px,Y:85.0px, PWM:X:1334.4147305657445(SOL),Y:1370.5326587107659(ASAGI), Çıkış:X:165.6,Y:-129.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:30.937 - INFO - YAW - SOL:154.0px, SAG:156.0px, Fark:-2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:30.937 - INFO - XY - Merkez:(407,304), Hedef:(320,240), Hata:X:87.0px,Y:64.0px, PWM:X:1350.9500615985164(SOL),Y:1364.9351226950555(ASAGI), Çıkış:X:149.0,Y:-135.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:30.973 - INFO - YAW - SOL:150.8px, SAG:152.7px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:30.973 - INFO - XY - Merkez:(405,286), Hedef:(320,240), Hata:X:85.0px,Y:46.0px, PWM:X:1352.0355526897551(SOL),Y:1392.213287382781(ASAGI), Çıkış:X:148.0,Y:-107.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.005 - INFO - YAW - SOL:150.4px, SAG:150.6px, Fark:-0.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.006 - INFO - XY - Merkez:(400,273), Hedef:(320,240), Hata:X:80.0px,Y:33.0px, PWM:X:1401.6733910582757(SOL),Y:1405.212525596582(ASAGI), Çıkış:X:98.3,Y:-94.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.036 - INFO - YAW - SOL:147.3px, SAG:149.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.037 - INFO - XY - Merkez:(396,264), Hedef:(320,240), Hata:X:76.0px,Y:24.0px, PWM:X:1399.6328700803726(SOL),Y:1431.3867380323436(ASAGI), Çıkış:X:100.4,Y:-68.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.072 - INFO - YAW - SOL:144.5px, SAG:143.7px, Fark:0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.073 - INFO - XY - Merkez:(393,256), Hedef:(320,240), Hata:X:73.0px,Y:16.0px, PWM:X:1387.0147578076294(SOL),Y:1443.2654750252848(ASAGI), Çıkış:X:113.0,Y:-56.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.105 - INFO - YAW - SOL:146.0px, SAG:146.4px, Fark:-0.4px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.106 - INFO - XY-Y - DEADBAND AKTIF | Y Hatası: 10.0px
+2025-11-08 15:01:31.106 - INFO - XY - Merkez:(391,250), Hedef:(320,240), Hata:X:71.0px,Y:10.0px, PWM:X:1381.6208451849395(SOL),Y:1308.0615952236244(ASAGI), Çıkış:X:118.4,Y:-191.9, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.137 - INFO - YAW - SOL:145.9px, SAG:146.5px, Fark:-0.6px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.138 - INFO - XY - Merkez:(391,250), Hedef:(320,240), Hata:X:71.0px,Y:10.0px, PWM:X:1357.5825740909577(SOL),Y:1500.0(ORTA), Çıkış:X:142.4,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.170 - INFO - YAW - SOL:145.0px, SAG:147.6px, Fark:-2.6px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.170 - INFO - XY - Merkez:(390,251), Hedef:(320,240), Hata:X:70.0px,Y:11.0px, PWM:X:1371.8080717174198(SOL),Y:1500.0(ORTA), Çıkış:X:128.2,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.205 - INFO - YAW - SOL:147.1px, SAG:146.6px, Fark:0.5px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.206 - INFO - XY - Merkez:(388,254), Hedef:(320,240), Hata:X:68.0px,Y:14.0px, PWM:X:1386.0796386328493(SOL),Y:1500.0(ORTA), Çıkış:X:113.9,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.237 - INFO - YAW - SOL:146.2px, SAG:145.6px, Fark:0.7px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.238 - INFO - XY-Y - DEADBAND PASIF | Y Hatası: 16.0px
+2025-11-08 15:01:31.238 - INFO - XY - Merkez:(386,256), Hedef:(320,240), Hata:X:66.0px,Y:16.0px, PWM:X:1392.2651468561892(SOL),Y:1700(YUKARI), Çıkış:X:107.7,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.270 - INFO - YAW - SOL:146.1px, SAG:145.5px, Fark:0.6px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.270 - INFO - XY - Merkez:(385,257), Hedef:(320,240), Hata:X:65.0px,Y:17.0px, PWM:X:1381.7551186543544(SOL),Y:1546.3617299974708(YUKARI), Çıkış:X:118.2,Y:46.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.305 - INFO - YAW - SOL:146.8px, SAG:146.3px, Fark:0.4px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.306 - INFO - XY - Merkez:(385,258), Hedef:(320,240), Hata:X:65.0px,Y:18.0px, PWM:X:1369.3578620290757(SOL),Y:1547.263182646113(YUKARI), Çıkış:X:130.6,Y:47.3, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.338 - INFO - YAW - SOL:147.6px, SAG:147.2px, Fark:0.4px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.338 - INFO - XY - Merkez:(385,258), Hedef:(320,240), Hata:X:65.0px,Y:18.0px, PWM:X:1369.3158084964753(SOL),Y:1536.0354684448241(YUKARI), Çıkış:X:130.7,Y:36.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.369 - INFO - YAW - SOL:147.3px, SAG:148.1px, Fark:-0.7px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.370 - INFO - XY - Merkez:(386,257), Hedef:(320,240), Hata:X:66.0px,Y:17.0px, PWM:X:1354.6504220803724(SOL),Y:1521.4226820882307(YUKARI), Çıkış:X:145.3,Y:21.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.405 - INFO - YAW - SOL:149.3px, SAG:148.1px, Fark:1.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.406 - INFO - XY - Merkez:(388,257), Hedef:(320,240), Hata:X:68.0px,Y:17.0px, PWM:X:1340.928991834618(SOL),Y:1534.0584408569337(YUKARI), Çıkış:X:159.1,Y:34.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.438 - INFO - YAW - SOL:149.2px, SAG:150.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.438 - INFO - XY - Merkez:(389,257), Hedef:(320,240), Hata:X:69.0px,Y:17.0px, PWM:X:1348.769596905105(SOL),Y:1534.0693999147416(YUKARI), Çıkış:X:151.2,Y:34.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.469 - INFO - YAW - SOL:150.1px, SAG:150.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.469 - INFO - XY - Merkez:(392,256), Hedef:(320,240), Hata:X:72.0px,Y:16.0px, PWM:X:1316.8640320044635(SOL),Y:1519.3221613925148(YUKARI), Çıkış:X:183.1,Y:19.3, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.506 - INFO - YAW - SOL:150.1px, SAG:149.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.506 - INFO - XY-Y - DEADBAND AKTIF | Y Hatası: 15.0px
+2025-11-08 15:01:31.506 - INFO - XY - Merkez:(394,255), Hedef:(320,240), Hata:X:74.0px,Y:15.0px, PWM:X:1329.4202978052635(SOL),Y:1326.7264033049316(ASAGI), Çıkış:X:170.6,Y:-173.3, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.538 - INFO - YAW - SOL:150.0px, SAG:149.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.538 - INFO - XY - Merkez:(398,255), Hedef:(320,240), Hata:X:78.0px,Y:15.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.569 - INFO - YAW - SOL:151.0px, SAG:149.0px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.570 - INFO - XY - Merkez:(402,255), Hedef:(320,240), Hata:X:82.0px,Y:15.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.605 - INFO - YAW - SOL:151.0px, SAG:150.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.605 - INFO - XY - Merkez:(406,254), Hedef:(320,240), Hata:X:86.0px,Y:14.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.637 - INFO - YAW - SOL:150.0px, SAG:149.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.638 - INFO - XY - Merkez:(411,254), Hedef:(320,240), Hata:X:91.0px,Y:14.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.668 - INFO - YAW - SOL:150.0px, SAG:149.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.668 - INFO - XY - Merkez:(416,255), Hedef:(320,240), Hata:X:96.0px,Y:15.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.701 - INFO - YAW - SOL:149.0px, SAG:147.0px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.702 - INFO - XY - Merkez:(422,255), Hedef:(320,240), Hata:X:102.0px,Y:15.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.737 - INFO - YAW - SOL:149.0px, SAG:147.0px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.738 - INFO - XY - Merkez:(428,255), Hedef:(320,240), Hata:X:108.0px,Y:15.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.769 - INFO - YAW - SOL:148.0px, SAG:147.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.770 - INFO - XY - Merkez:(433,255), Hedef:(320,240), Hata:X:113.0px,Y:15.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.802 - INFO - YAW - SOL:148.0px, SAG:146.0px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.802 - INFO - XY-Y - DEADBAND PASIF | Y Hatası: 16.0px
+2025-11-08 15:01:31.802 - INFO - XY - Merkez:(439,256), Hedef:(320,240), Hata:X:119.0px,Y:16.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:31.837 - INFO - YAW - SOL:148.1px, SAG:146.0px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.838 - INFO - XY-Y - DEADBAND AKTIF | Y Hatası: 15.0px
+2025-11-08 15:01:31.838 - INFO - XY - Merkez:(445,255), Hedef:(320,240), Hata:X:125.0px,Y:15.0px, PWM:X:1300(SOL),Y:1320.0641784641784(ASAGI), Çıkış:X:200.0,Y:-179.9, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.869 - INFO - YAW - SOL:147.0px, SAG:145.0px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.869 - INFO - XY - Merkez:(449,255), Hedef:(320,240), Hata:X:129.0px,Y:15.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.901 - INFO - YAW - SOL:147.1px, SAG:145.0px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.902 - INFO - XY - Merkez:(454,254), Hedef:(320,240), Hata:X:134.0px,Y:14.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.938 - INFO - YAW - SOL:146.1px, SAG:145.1px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.938 - INFO - XY - Merkez:(457,254), Hedef:(320,240), Hata:X:137.0px,Y:14.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:31.969 - INFO - YAW - SOL:146.2px, SAG:144.1px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:31.970 - INFO - XY - Merkez:(461,253), Hedef:(320,240), Hata:X:141.0px,Y:13.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.001 - INFO - YAW - SOL:145.1px, SAG:144.1px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.002 - INFO - XY - Merkez:(464,252), Hedef:(320,240), Hata:X:144.0px,Y:12.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.038 - INFO - YAW - SOL:146.2px, SAG:144.1px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.038 - INFO - XY - Merkez:(469,252), Hedef:(320,240), Hata:X:149.0px,Y:12.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.070 - INFO - YAW - SOL:145.2px, SAG:143.1px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.070 - INFO - XY - Merkez:(472,252), Hedef:(320,240), Hata:X:152.0px,Y:12.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.101 - INFO - YAW - SOL:146.2px, SAG:143.1px, Fark:3.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.102 - INFO - XY - Merkez:(476,251), Hedef:(320,240), Hata:X:156.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.137 - INFO - YAW - SOL:145.2px, SAG:144.1px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.137 - INFO - XY - Merkez:(479,251), Hedef:(320,240), Hata:X:159.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.169 - INFO - YAW - SOL:145.2px, SAG:143.2px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.169 - INFO - XY - Merkez:(482,251), Hedef:(320,240), Hata:X:162.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.200 - INFO - YAW - SOL:145.3px, SAG:143.1px, Fark:2.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.200 - INFO - XY - Merkez:(485,251), Hedef:(320,240), Hata:X:165.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.237 - INFO - YAW - SOL:145.3px, SAG:143.2px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.238 - INFO - XY - Merkez:(487,251), Hedef:(320,240), Hata:X:167.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.269 - INFO - YAW - SOL:145.3px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.270 - INFO - XY - Merkez:(488,252), Hedef:(320,240), Hata:X:168.0px,Y:12.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.301 - INFO - YAW - SOL:145.3px, SAG:143.3px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.302 - INFO - XY - Merkez:(489,252), Hedef:(320,240), Hata:X:169.0px,Y:12.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.333 - INFO - YAW - SOL:145.3px, SAG:143.2px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.333 - INFO - XY - Merkez:(489,252), Hedef:(320,240), Hata:X:169.0px,Y:12.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.369 - INFO - YAW - SOL:144.4px, SAG:143.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.369 - INFO - XY - Merkez:(489,251), Hedef:(320,240), Hata:X:169.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.401 - INFO - YAW - SOL:144.4px, SAG:143.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.401 - INFO - XY - Merkez:(487,251), Hedef:(320,240), Hata:X:167.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.433 - INFO - YAW - SOL:145.4px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.433 - INFO - XY - Merkez:(486,251), Hedef:(320,240), Hata:X:166.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.470 - INFO - YAW - SOL:145.4px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.470 - INFO - XY - Merkez:(485,251), Hedef:(320,240), Hata:X:165.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.501 - INFO - YAW - SOL:145.4px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.502 - INFO - XY - Merkez:(484,251), Hedef:(320,240), Hata:X:164.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.533 - INFO - YAW - SOL:144.4px, SAG:142.4px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.534 - INFO - XY - Merkez:(484,251), Hedef:(320,240), Hata:X:164.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.570 - INFO - YAW - SOL:145.3px, SAG:142.3px, Fark:3.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.570 - INFO - XY - Merkez:(483,251), Hedef:(320,240), Hata:X:163.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.601 - INFO - YAW - SOL:144.4px, SAG:143.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.602 - INFO - XY - Merkez:(483,250), Hedef:(320,240), Hata:X:163.0px,Y:10.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.632 - INFO - YAW - SOL:145.3px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.633 - INFO - XY - Merkez:(482,251), Hedef:(320,240), Hata:X:162.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.670 - INFO - YAW - SOL:145.4px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.670 - INFO - XY - Merkez:(482,251), Hedef:(320,240), Hata:X:162.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.701 - INFO - YAW - SOL:145.3px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.702 - INFO - XY - Merkez:(481,251), Hedef:(320,240), Hata:X:161.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.732 - INFO - YAW - SOL:144.4px, SAG:143.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.733 - INFO - XY - Merkez:(481,251), Hedef:(320,240), Hata:X:161.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.770 - INFO - YAW - SOL:145.3px, SAG:144.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.770 - INFO - XY - Merkez:(481,251), Hedef:(320,240), Hata:X:161.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.801 - INFO - YAW - SOL:145.3px, SAG:143.3px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.802 - INFO - XY - Merkez:(482,251), Hedef:(320,240), Hata:X:162.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.833 - INFO - YAW - SOL:145.4px, SAG:144.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.834 - INFO - XY - Merkez:(481,251), Hedef:(320,240), Hata:X:161.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.866 - INFO - YAW - SOL:145.4px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.866 - INFO - XY - Merkez:(480,251), Hedef:(320,240), Hata:X:160.0px,Y:11.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.902 - INFO - YAW - SOL:145.5px, SAG:143.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.902 - INFO - XY - Merkez:(479,250), Hedef:(320,240), Hata:X:159.0px,Y:10.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.933 - INFO - YAW - SOL:145.6px, SAG:143.5px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.933 - INFO - XY - Merkez:(476,250), Hedef:(320,240), Hata:X:156.0px,Y:10.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:32.965 - INFO - YAW - SOL:145.5px, SAG:142.4px, Fark:3.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:32.966 - INFO - XY - Merkez:(473,249), Hedef:(320,240), Hata:X:153.0px,Y:9.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.001 - INFO - YAW - SOL:144.6px, SAG:142.5px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.001 - INFO - XY - Merkez:(469,249), Hedef:(320,240), Hata:X:149.0px,Y:9.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.032 - INFO - YAW - SOL:145.6px, SAG:143.5px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.033 - INFO - XY - Merkez:(465,249), Hedef:(320,240), Hata:X:145.0px,Y:9.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.065 - INFO - YAW - SOL:145.6px, SAG:143.4px, Fark:2.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.065 - INFO - XY - Merkez:(461,248), Hedef:(320,240), Hata:X:141.0px,Y:8.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.101 - INFO - YAW - SOL:145.6px, SAG:143.5px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.102 - INFO - XY - Merkez:(456,248), Hedef:(320,240), Hata:X:136.0px,Y:8.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.132 - INFO - YAW - SOL:145.6px, SAG:144.5px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.133 - INFO - XY - Merkez:(451,247), Hedef:(320,240), Hata:X:131.0px,Y:7.0px, PWM:X:1301.862151559796(SOL),Y:1500.0(ORTA), Çıkış:X:198.1,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.163 - INFO - YAW - SOL:144.6px, SAG:143.5px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.164 - INFO - XY - Merkez:(446,246), Hedef:(320,240), Hata:X:126.0px,Y:6.0px, PWM:X:1311.0462663593607(SOL),Y:1500.0(ORTA), Çıkış:X:189.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.201 - INFO - YAW - SOL:145.6px, SAG:144.5px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.202 - INFO - XY - Merkez:(441,246), Hedef:(320,240), Hata:X:121.0px,Y:6.0px, PWM:X:1309.9470525023678(SOL),Y:1500.0(ORTA), Çıkış:X:190.1,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.234 - INFO - YAW - SOL:146.5px, SAG:144.4px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.234 - INFO - XY - Merkez:(436,246), Hedef:(320,240), Hata:X:116.0px,Y:6.0px, PWM:X:1327.9513375035492(SOL),Y:1500.0(ORTA), Çıkış:X:172.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.264 - INFO - YAW - SOL:145.5px, SAG:145.4px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.265 - INFO - XY - Merkez:(431,246), Hedef:(320,240), Hata:X:111.0px,Y:6.0px, PWM:X:1342.3470885107108(SOL),Y:1500.0(ORTA), Çıkış:X:157.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.301 - INFO - YAW - SOL:145.5px, SAG:145.3px, Fark:0.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.301 - INFO - XY - Merkez:(427,246), Hedef:(320,240), Hata:X:107.0px,Y:6.0px, PWM:X:1328.1920819875504(SOL),Y:1500.0(ORTA), Çıkış:X:171.8,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.333 - INFO - YAW - SOL:146.5px, SAG:145.4px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.333 - INFO - XY - Merkez:(423,245), Hedef:(320,240), Hata:X:103.0px,Y:5.0px, PWM:X:1343.284303966169(SOL),Y:1500.0(ORTA), Çıkış:X:156.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.365 - INFO - YAW - SOL:146.5px, SAG:144.4px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.366 - INFO - XY - Merkez:(418,245), Hedef:(320,240), Hata:X:98.0px,Y:5.0px, PWM:X:1363.5900091620795(SOL),Y:1500.0(ORTA), Çıkış:X:136.4,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.401 - INFO - YAW - SOL:146.5px, SAG:145.4px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.401 - INFO - XY - Merkez:(414,245), Hedef:(320,240), Hata:X:94.0px,Y:5.0px, PWM:X:1355.130990511773(SOL),Y:1500.0(ORTA), Çıkış:X:144.9,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.433 - INFO - YAW - SOL:147.5px, SAG:145.3px, Fark:2.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.434 - INFO - XY - Merkez:(411,245), Hedef:(320,240), Hata:X:91.0px,Y:5.0px, PWM:X:1353.5211547797705(SOL),Y:1500.0(ORTA), Çıkış:X:146.5,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.465 - INFO - YAW - SOL:147.4px, SAG:145.3px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.466 - INFO - XY - Merkez:(408,245), Hedef:(320,240), Hata:X:88.0px,Y:5.0px, PWM:X:1359.9855619377115(SOL),Y:1500.0(ORTA), Çıkış:X:140.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.497 - INFO - YAW - SOL:146.3px, SAG:145.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.498 - INFO - XY - Merkez:(405,245), Hedef:(320,240), Hata:X:85.0px,Y:5.0px, PWM:X:1365.7254057364382(SOL),Y:1500.0(ORTA), Çıkış:X:134.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.532 - INFO - YAW - SOL:146.3px, SAG:146.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.532 - INFO - XY - Merkez:(402,245), Hedef:(320,240), Hata:X:82.0px,Y:5.0px, PWM:X:1368.7402800712239(SOL),Y:1500.0(ORTA), Çıkış:X:131.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.566 - INFO - YAW - SOL:146.3px, SAG:145.3px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.566 - INFO - XY - Merkez:(400,245), Hedef:(320,240), Hata:X:80.0px,Y:5.0px, PWM:X:1361.8185673159858(SOL),Y:1500.0(ORTA), Çıkış:X:138.2,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.596 - INFO - YAW - SOL:147.3px, SAG:146.2px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.597 - INFO - XY - Merkez:(397,245), Hedef:(320,240), Hata:X:77.0px,Y:5.0px, PWM:X:1383.2825403134389(SOL),Y:1500.0(ORTA), Çıkış:X:116.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.632 - INFO - YAW - SOL:146.3px, SAG:146.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.633 - INFO - XY - Merkez:(395,245), Hedef:(320,240), Hata:X:75.0px,Y:5.0px, PWM:X:1370.18492137287(SOL),Y:1500.0(ORTA), Çıkış:X:129.8,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.666 - INFO - YAW - SOL:147.3px, SAG:146.2px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.666 - INFO - XY - Merkez:(394,245), Hedef:(320,240), Hata:X:74.0px,Y:5.0px, PWM:X:1362.0337122353235(SOL),Y:1500.0(ORTA), Çıkış:X:138.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.697 - INFO - YAW - SOL:147.3px, SAG:145.2px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.697 - INFO - XY - Merkez:(392,245), Hedef:(320,240), Hata:X:72.0px,Y:5.0px, PWM:X:1379.389305251817(SOL),Y:1500.0(ORTA), Çıkış:X:120.6,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.733 - INFO - YAW - SOL:147.3px, SAG:146.2px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.734 - INFO - XY - Merkez:(391,244), Hedef:(320,240), Hata:X:71.0px,Y:4.0px, PWM:X:1366.8522653943328(SOL),Y:1500.0(ORTA), Çıkış:X:133.1,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.765 - INFO - YAW - SOL:147.3px, SAG:145.2px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.766 - INFO - XY - Merkez:(390,245), Hedef:(320,240), Hata:X:70.0px,Y:5.0px, PWM:X:1370.481661726975(SOL),Y:1500.0(ORTA), Çıkış:X:129.5,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.797 - INFO - YAW - SOL:147.3px, SAG:146.2px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.798 - INFO - XY - Merkez:(389,244), Hedef:(320,240), Hata:X:69.0px,Y:4.0px, PWM:X:1372.1886305945845(SOL),Y:1500.0(ORTA), Çıkış:X:127.8,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.833 - INFO - YAW - SOL:146.3px, SAG:146.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.833 - INFO - XY - Merkez:(388,244), Hedef:(320,240), Hata:X:68.0px,Y:4.0px, PWM:X:1373.0065966057714(SOL),Y:1500.0(ORTA), Çıkış:X:127.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.865 - INFO - YAW - SOL:146.3px, SAG:146.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.865 - INFO - XY - Merkez:(386,244), Hedef:(320,240), Hata:X:66.0px,Y:4.0px, PWM:X:1390.6655763760941(SOL),Y:1500.0(ORTA), Çıkış:X:109.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.897 - INFO - YAW - SOL:147.3px, SAG:146.2px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.898 - INFO - XY - Merkez:(385,244), Hedef:(320,240), Hata:X:65.0px,Y:4.0px, PWM:X:1379.9850836122082(SOL),Y:1500.0(ORTA), Çıkış:X:120.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.932 - INFO - YAW - SOL:147.3px, SAG:145.2px, Fark:2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.933 - INFO - XY - Merkez:(384,244), Hedef:(320,240), Hata:X:64.0px,Y:4.0px, PWM:X:1381.1190823393931(SOL),Y:1500.0(ORTA), Çıkış:X:118.9,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.965 - INFO - YAW - SOL:146.3px, SAG:146.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.966 - INFO - XY - Merkez:(383,243), Hedef:(320,240), Hata:X:63.0px,Y:3.0px, PWM:X:1383.6651825447304(SOL),Y:1500.0(ORTA), Çıkış:X:116.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:33.998 - INFO - YAW - SOL:146.3px, SAG:146.3px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:33.998 - INFO - XY - Merkez:(381,243), Hedef:(320,240), Hata:X:61.0px,Y:3.0px, PWM:X:1400.393062528247(SOL),Y:1500.0(ORTA), Çıkış:X:99.6,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.028 - INFO - YAW - SOL:146.3px, SAG:146.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.029 - INFO - XY - Merkez:(378,243), Hedef:(320,240), Hata:X:58.0px,Y:3.0px, PWM:X:1420.4014884080195(SOL),Y:1500.0(ORTA), Çıkış:X:79.6,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.066 - INFO - YAW - SOL:146.4px, SAG:146.2px, Fark:0.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.066 - INFO - XY - Merkez:(376,243), Hedef:(320,240), Hata:X:56.0px,Y:3.0px, PWM:X:1406.8708137246629(SOL),Y:1500.0(ORTA), Çıkış:X:93.1,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.097 - INFO - YAW - SOL:146.3px, SAG:146.3px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.098 - INFO - XY - Merkez:(374,243), Hedef:(320,240), Hata:X:54.0px,Y:3.0px, PWM:X:1414.6166559394485(SOL),Y:1500.0(ORTA), Çıkış:X:85.4,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.128 - INFO - YAW - SOL:147.3px, SAG:146.2px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.128 - INFO - XY - Merkez:(372,243), Hedef:(320,240), Hata:X:52.0px,Y:3.0px, PWM:X:1419.6693771091952(SOL),Y:1500.0(ORTA), Çıkış:X:80.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.165 - INFO - YAW - SOL:147.3px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.166 - INFO - XY - Merkez:(369,243), Hedef:(320,240), Hata:X:49.0px,Y:3.0px, PWM:X:1431.5268845561159(SOL),Y:1500.0(ORTA), Çıkış:X:68.5,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.197 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.198 - INFO - XY - Merkez:(366,243), Hedef:(320,240), Hata:X:46.0px,Y:3.0px, PWM:X:1442.8555088309606(SOL),Y:1500.0(ORTA), Çıkış:X:57.1,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.228 - INFO - YAW - SOL:147.3px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.228 - INFO - XY - Merkez:(363,244), Hedef:(320,240), Hata:X:43.0px,Y:4.0px, PWM:X:1450.277441190006(SOL),Y:1500.0(ORTA), Çıkış:X:49.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.265 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.266 - INFO - XY - Merkez:(360,244), Hedef:(320,240), Hata:X:40.0px,Y:4.0px, PWM:X:1449.549559118963(SOL),Y:1500.0(ORTA), Çıkış:X:50.5,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.297 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.298 - INFO - XY - Merkez:(357,244), Hedef:(320,240), Hata:X:37.0px,Y:4.0px, PWM:X:1460.733675875126(SOL),Y:1500.0(ORTA), Çıkış:X:39.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.328 - INFO - YAW - SOL:147.3px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.329 - INFO - XY - Merkez:(354,244), Hedef:(320,240), Hata:X:34.0px,Y:4.0px, PWM:X:1467.982367621269(SOL),Y:1500.0(ORTA), Çıkış:X:32.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.365 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.366 - INFO - XY - Merkez:(351,244), Hedef:(320,240), Hata:X:31.0px,Y:4.0px, PWM:X:1467.3680272676868(SOL),Y:1500.0(ORTA), Çıkış:X:32.6,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.397 - INFO - YAW - SOL:147.3px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.398 - INFO - XY - Merkez:(349,244), Hedef:(320,240), Hata:X:29.0px,Y:4.0px, PWM:X:1464.4309411305735(SOL),Y:1500.0(ORTA), Çıkış:X:35.6,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.428 - INFO - YAW - SOL:147.3px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.429 - INFO - XY - Merkez:(347,244), Hedef:(320,240), Hata:X:27.0px,Y:4.0px, PWM:X:1468.9733581660914(SOL),Y:1500.0(ORTA), Çıkış:X:31.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.466 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.466 - INFO - XY - Merkez:(344,243), Hedef:(320,240), Hata:X:24.0px,Y:3.0px, PWM:X:1480.955247561565(SOL),Y:1500.0(ORTA), Çıkış:X:19.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.497 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.498 - INFO - XY - Merkez:(342,243), Hedef:(320,240), Hata:X:22.0px,Y:3.0px, PWM:X:1478.5892745774315(SOL),Y:1500.0(ORTA), Çıkış:X:21.4,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.528 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.529 - INFO - XY - Merkez:(340,243), Hedef:(320,240), Hata:X:20.0px,Y:3.0px, PWM:X:1482.9596301118686(SOL),Y:1500.0(ORTA), Çıkış:X:17.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.560 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.561 - INFO - XY - Merkez:(338,243), Hedef:(320,240), Hata:X:18.0px,Y:3.0px, PWM:X:1485.998984957316(SOL),Y:1500.0(ORTA), Çıkış:X:14.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.598 - INFO - YAW - SOL:146.3px, SAG:147.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.598 - INFO - XY - Merkez:(337,243), Hedef:(320,240), Hata:X:17.0px,Y:3.0px, PWM:X:1473.8392594590837(SOL),Y:1500.0(ORTA), Çıkış:X:26.2,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.628 - INFO - YAW - SOL:147.2px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.629 - INFO - XY - Merkez:(336,243), Hedef:(320,240), Hata:X:16.0px,Y:3.0px, PWM:X:1478.1314148497727(SOL),Y:1500.0(ORTA), Çıkış:X:21.9,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.661 - INFO - YAW - SOL:147.2px, SAG:147.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.661 - INFO - XY - Merkez:(336,243), Hedef:(320,240), Hata:X:16.0px,Y:3.0px, PWM:X:1465.079723854065(SOL),Y:1500.0(ORTA), Çıkış:X:34.9,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:34.698 - INFO - YAW - SOL:147.2px, SAG:146.2px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.698 - INFO - XY-X - DEADBAND AKTIF | X Hatası: 15.0px
+2025-11-08 15:01:34.698 - INFO - XY - Merkez:(335,243), Hedef:(320,240), Hata:X:15.0px,Y:3.0px, PWM:X:1671.9395447150305(SAG),Y:1500.0(ORTA), Çıkış:X:-171.9,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.728 - INFO - YAW - SOL:147.2px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.728 - INFO - XY - Merkez:(334,243), Hedef:(320,240), Hata:X:14.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.762 - INFO - YAW - SOL:147.3px, SAG:148.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.762 - INFO - XY - Merkez:(334,243), Hedef:(320,240), Hata:X:14.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.797 - INFO - YAW - SOL:147.3px, SAG:148.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.797 - INFO - XY - Merkez:(332,243), Hedef:(320,240), Hata:X:12.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.828 - INFO - YAW - SOL:147.2px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.828 - INFO - XY - Merkez:(331,243), Hedef:(320,240), Hata:X:11.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.861 - INFO - YAW - SOL:147.2px, SAG:147.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.862 - INFO - XY - Merkez:(331,243), Hedef:(320,240), Hata:X:11.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.898 - INFO - YAW - SOL:147.2px, SAG:147.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.898 - INFO - XY - Merkez:(330,243), Hedef:(320,240), Hata:X:10.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.928 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.928 - INFO - XY - Merkez:(329,243), Hedef:(320,240), Hata:X:9.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.961 - INFO - YAW - SOL:147.3px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.961 - INFO - XY - Merkez:(328,244), Hedef:(320,240), Hata:X:8.0px,Y:4.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:34.998 - INFO - YAW - SOL:147.2px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:34.998 - INFO - XY - Merkez:(327,243), Hedef:(320,240), Hata:X:7.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.028 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.028 - INFO - XY - Merkez:(327,243), Hedef:(320,240), Hata:X:7.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.060 - INFO - YAW - SOL:147.2px, SAG:147.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.060 - INFO - XY - Merkez:(327,242), Hedef:(320,240), Hata:X:7.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.098 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.098 - INFO - XY - Merkez:(326,242), Hedef:(320,240), Hata:X:6.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.128 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.128 - INFO - XY - Merkez:(326,242), Hedef:(320,240), Hata:X:6.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.162 - INFO - YAW - SOL:147.2px, SAG:148.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.162 - INFO - XY - Merkez:(325,242), Hedef:(320,240), Hata:X:5.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.192 - INFO - YAW - SOL:146.2px, SAG:148.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.192 - INFO - XY - Merkez:(324,242), Hedef:(320,240), Hata:X:4.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.228 - INFO - YAW - SOL:147.2px, SAG:148.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.228 - INFO - XY - Merkez:(323,242), Hedef:(320,240), Hata:X:3.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.261 - INFO - YAW - SOL:147.3px, SAG:148.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.262 - INFO - XY - Merkez:(322,242), Hedef:(320,240), Hata:X:2.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.293 - INFO - YAW - SOL:146.2px, SAG:148.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.294 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.328 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.329 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.361 - INFO - YAW - SOL:147.2px, SAG:147.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.362 - INFO - XY - Merkez:(320,243), Hedef:(320,240), Hata:X:0.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.394 - INFO - YAW - SOL:148.2px, SAG:149.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.394 - INFO - XY - Merkez:(319,243), Hedef:(320,240), Hata:X:-1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.428 - INFO - YAW - SOL:148.2px, SAG:148.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.428 - INFO - XY - Merkez:(320,243), Hedef:(320,240), Hata:X:0.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.461 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.462 - INFO - XY - Merkez:(319,243), Hedef:(320,240), Hata:X:-1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.493 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.493 - INFO - XY - Merkez:(319,243), Hedef:(320,240), Hata:X:-1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.528 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.528 - INFO - XY - Merkez:(320,242), Hedef:(320,240), Hata:X:0.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.561 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.561 - INFO - XY - Merkez:(320,242), Hedef:(320,240), Hata:X:0.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.594 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.594 - INFO - XY - Merkez:(320,242), Hedef:(320,240), Hata:X:0.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.628 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.628 - INFO - XY - Merkez:(320,242), Hedef:(320,240), Hata:X:0.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.661 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.661 - INFO - XY - Merkez:(321,242), Hedef:(320,240), Hata:X:1.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.693 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.693 - INFO - XY - Merkez:(321,242), Hedef:(320,240), Hata:X:1.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.725 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.726 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.761 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.762 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.793 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.793 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.825 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.826 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.861 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.862 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.894 - INFO - YAW - SOL:148.2px, SAG:148.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.894 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.925 - INFO - YAW - SOL:148.2px, SAG:148.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.925 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.961 - INFO - YAW - SOL:148.2px, SAG:148.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.962 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:35.994 - INFO - YAW - SOL:148.2px, SAG:148.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:35.994 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.024 - INFO - YAW - SOL:148.2px, SAG:148.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.025 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.061 - INFO - YAW - SOL:148.2px, SAG:148.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.061 - INFO - XY - Merkez:(321,243), Hedef:(320,240), Hata:X:1.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.094 - INFO - YAW - SOL:148.1px, SAG:148.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.094 - INFO - XY - Merkez:(322,244), Hedef:(320,240), Hata:X:2.0px,Y:4.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.124 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.125 - INFO - XY - Merkez:(322,243), Hedef:(320,240), Hata:X:2.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.160 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.161 - INFO - XY - Merkez:(322,243), Hedef:(320,240), Hata:X:2.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.193 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.193 - INFO - XY - Merkez:(322,243), Hedef:(320,240), Hata:X:2.0px,Y:3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.225 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.226 - INFO - XY - Merkez:(322,242), Hedef:(320,240), Hata:X:2.0px,Y:2.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.262 - INFO - YAW - SOL:146.1px, SAG:147.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.262 - INFO - XY - Merkez:(322,241), Hedef:(320,240), Hata:X:2.0px,Y:1.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.293 - INFO - YAW - SOL:146.1px, SAG:147.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.294 - INFO - XY - Merkez:(322,239), Hedef:(320,240), Hata:X:2.0px,Y:-1.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.325 - INFO - YAW - SOL:146.1px, SAG:145.1px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.325 - INFO - XY - Merkez:(323,236), Hedef:(320,240), Hata:X:3.0px,Y:-4.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.356 - INFO - YAW - SOL:145.1px, SAG:145.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.357 - INFO - XY - Merkez:(324,232), Hedef:(320,240), Hata:X:4.0px,Y:-8.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.393 - INFO - YAW - SOL:144.2px, SAG:145.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.394 - INFO - XY - Merkez:(325,227), Hedef:(320,240), Hata:X:5.0px,Y:-13.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:36.425 - INFO - YAW - SOL:143.1px, SAG:144.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.426 - INFO - XY-Y - DEADBAND PASIF | Y Hatası: -18.0px
+2025-11-08 15:01:36.426 - INFO - XY - Merkez:(327,222), Hedef:(320,240), Hata:X:7.0px,Y:-18.0px, PWM:X:1500.0(ORTA),Y:1300(ASAGI), Çıkış:X:0.0,Y:-200.0, Deadband:X:EVET,Y:HAYIR
+2025-11-08 15:01:36.457 - INFO - YAW - SOL:143.1px, SAG:143.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.458 - INFO - XY - Merkez:(328,217), Hedef:(320,240), Hata:X:8.0px,Y:-23.0px, PWM:X:1500.0(ORTA),Y:1391.0569759619416(ASAGI), Çıkış:X:0.0,Y:-108.9, Deadband:X:EVET,Y:HAYIR
+2025-11-08 15:01:36.493 - INFO - YAW - SOL:143.1px, SAG:143.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.493 - INFO - XY - Merkez:(330,212), Hedef:(320,240), Hata:X:10.0px,Y:-28.0px, PWM:X:1500.0(ORTA),Y:1388.0658866662795(ASAGI), Çıkış:X:0.0,Y:-111.9, Deadband:X:EVET,Y:HAYIR
+2025-11-08 15:01:36.525 - INFO - YAW - SOL:143.1px, SAG:143.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.525 - INFO - XY - Merkez:(332,207), Hedef:(320,240), Hata:X:12.0px,Y:-33.0px, PWM:X:1500.0(ORTA),Y:1371.3539126943017(ASAGI), Çıkış:X:0.0,Y:-128.6, Deadband:X:EVET,Y:HAYIR
+2025-11-08 15:01:36.558 - INFO - YAW - SOL:142.1px, SAG:143.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.558 - INFO - XY - Merkez:(334,201), Hedef:(320,240), Hata:X:14.0px,Y:-39.0px, PWM:X:1500.0(ORTA),Y:1348.5863922876806(ASAGI), Çıkış:X:0.0,Y:-151.4, Deadband:X:EVET,Y:HAYIR
+2025-11-08 15:01:36.593 - INFO - YAW - SOL:142.1px, SAG:141.1px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.593 - INFO - XY - Merkez:(335,196), Hedef:(320,240), Hata:X:15.0px,Y:-44.0px, PWM:X:1500.0(ORTA),Y:1354.698096945874(ASAGI), Çıkış:X:0.0,Y:-145.3, Deadband:X:EVET,Y:HAYIR
+2025-11-08 15:01:36.625 - INFO - YAW - SOL:141.1px, SAG:141.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.626 - INFO - XY-X - DEADBAND PASIF | X Hatası: 17.0px
+2025-11-08 15:01:36.626 - INFO - XY - Merkez:(337,192), Hedef:(320,240), Hata:X:17.0px,Y:-48.0px, PWM:X:1300(SOL),Y:1355.216540349387(ASAGI), Çıkış:X:200.0,Y:-144.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.658 - INFO - YAW - SOL:142.1px, SAG:142.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.658 - INFO - XY - Merkez:(338,187), Hedef:(320,240), Hata:X:18.0px,Y:-53.0px, PWM:X:1451.5125577784816(SOL),Y:1331.4544762055448(ASAGI), Çıkış:X:48.5,Y:-168.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.693 - INFO - YAW - SOL:140.1px, SAG:141.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.693 - INFO - XY - Merkez:(340,181), Hedef:(320,240), Hata:X:20.0px,Y:-59.0px, PWM:X:1437.1956822764246(SOL),Y:1313.4090397106233(ASAGI), Çıkış:X:62.8,Y:-186.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.726 - INFO - YAW - SOL:141.2px, SAG:141.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.726 - INFO - XY - Merkez:(341,177), Hedef:(320,240), Hata:X:21.0px,Y:-63.0px, PWM:X:1445.9200549239672(SOL),Y:1325.5754233981256(ASAGI), Çıkış:X:54.1,Y:-174.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.757 - INFO - YAW - SOL:140.1px, SAG:140.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.757 - INFO - XY - Merkez:(343,173), Hedef:(320,240), Hata:X:23.0px,Y:-67.0px, PWM:X:1427.8876757461949(SOL),Y:1313.5753900891364(ASAGI), Çıkış:X:72.1,Y:-186.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.794 - INFO - YAW - SOL:140.2px, SAG:141.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.794 - INFO - XY - Merkez:(345,169), Hedef:(320,240), Hata:X:25.0px,Y:-71.0px, PWM:X:1428.3803972374753(SOL),Y:1314.5521601058838(ASAGI), Çıkış:X:71.6,Y:-185.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.826 - INFO - YAW - SOL:139.2px, SAG:141.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.826 - INFO - XY - Merkez:(347,165), Hedef:(320,240), Hata:X:27.0px,Y:-75.0px, PWM:X:1421.0148973947635(SOL),Y:1300(ASAGI), Çıkış:X:79.0,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.857 - INFO - YAW - SOL:139.2px, SAG:141.3px, Fark:-2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.858 - INFO - XY - Merkez:(348,161), Hedef:(320,240), Hata:X:28.0px,Y:-79.0px, PWM:X:1431.136846858053(SOL),Y:1300(ASAGI), Çıkış:X:68.9,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.889 - INFO - YAW - SOL:139.2px, SAG:140.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.890 - INFO - XY - Merkez:(351,157), Hedef:(320,240), Hata:X:31.0px,Y:-83.0px, PWM:X:1400.3479447072739(SOL),Y:1300(ASAGI), Çıkış:X:99.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.925 - INFO - YAW - SOL:139.3px, SAG:139.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.926 - INFO - XY - Merkez:(353,154), Hedef:(320,240), Hata:X:33.0px,Y:-86.0px, PWM:X:1411.6658012168668(SOL),Y:1300(ASAGI), Çıkış:X:88.3,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.957 - INFO - YAW - SOL:139.3px, SAG:140.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.958 - INFO - XY - Merkez:(354,150), Hedef:(320,240), Hata:X:34.0px,Y:-90.0px, PWM:X:1419.3311196941515(SOL),Y:1300(ASAGI), Çıkış:X:80.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:36.989 - INFO - YAW - SOL:139.3px, SAG:140.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:36.989 - INFO - XY - Merkez:(355,147), Hedef:(320,240), Hata:X:35.0px,Y:-93.0px, PWM:X:1417.209914403288(SOL),Y:1300(ASAGI), Çıkış:X:82.8,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.025 - INFO - YAW - SOL:139.4px, SAG:139.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.025 - INFO - XY - Merkez:(356,144), Hedef:(320,240), Hata:X:36.0px,Y:-96.0px, PWM:X:1416.5582500036562(SOL),Y:1300(ASAGI), Çıkış:X:83.4,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.057 - INFO - YAW - SOL:139.2px, SAG:139.2px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.058 - INFO - XY - Merkez:(357,141), Hedef:(320,240), Hata:X:37.0px,Y:-99.0px, PWM:X:1413.52270948721(SOL),Y:1300(ASAGI), Çıkış:X:86.5,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.089 - INFO - YAW - SOL:139.3px, SAG:139.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.090 - INFO - XY - Merkez:(359,138), Hedef:(320,240), Hata:X:39.0px,Y:-102.0px, PWM:X:1396.7462670450818(SOL),Y:1300(ASAGI), Çıkış:X:103.3,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.125 - INFO - YAW - SOL:140.2px, SAG:140.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.126 - INFO - XY - Merkez:(360,135), Hedef:(320,240), Hata:X:40.0px,Y:-105.0px, PWM:X:1408.5249997560554(SOL),Y:1300(ASAGI), Çıkış:X:91.5,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.157 - INFO - YAW - SOL:138.2px, SAG:140.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.158 - INFO - XY - Merkez:(361,132), Hedef:(320,240), Hata:X:41.0px,Y:-108.0px, PWM:X:1405.2164911951184(SOL),Y:1300(ASAGI), Çıkış:X:94.8,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.190 - INFO - YAW - SOL:140.2px, SAG:141.2px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.190 - INFO - XY - Merkez:(363,130), Hedef:(320,240), Hata:X:43.0px,Y:-110.0px, PWM:X:1388.8377802335774(SOL),Y:1300(ASAGI), Çıkış:X:111.2,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.226 - INFO - YAW - SOL:140.2px, SAG:141.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.226 - INFO - XY - Merkez:(364,127), Hedef:(320,240), Hata:X:44.0px,Y:-113.0px, PWM:X:1400.530833065748(SOL),Y:1300(ASAGI), Çıkış:X:99.5,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.257 - INFO - YAW - SOL:139.2px, SAG:141.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.258 - INFO - XY - Merkez:(365,125), Hedef:(320,240), Hata:X:45.0px,Y:-115.0px, PWM:X:1396.9926171648176(SOL),Y:1300(ASAGI), Çıkış:X:103.0,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.290 - INFO - YAW - SOL:140.2px, SAG:142.2px, Fark:-2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.290 - INFO - XY - Merkez:(366,124), Hedef:(320,240), Hata:X:46.0px,Y:-116.0px, PWM:X:1395.1220103638507(SOL),Y:1300(ASAGI), Çıkış:X:104.9,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.326 - INFO - YAW - SOL:139.2px, SAG:141.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.326 - INFO - XY - Merkez:(367,122), Hedef:(320,240), Hata:X:47.0px,Y:-118.0px, PWM:X:1394.568977710348(SOL),Y:1300(ASAGI), Çıkış:X:105.4,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.357 - INFO - YAW - SOL:139.2px, SAG:141.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.358 - INFO - XY - Merkez:(368,121), Hedef:(320,240), Hata:X:48.0px,Y:-119.0px, PWM:X:1390.7263947673596(SOL),Y:1300(ASAGI), Çıkış:X:109.3,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.389 - INFO - YAW - SOL:139.2px, SAG:140.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.389 - INFO - XY - Merkez:(369,120), Hedef:(320,240), Hata:X:49.0px,Y:-120.0px, PWM:X:1388.7602004318942(SOL),Y:1300(ASAGI), Çıkış:X:111.2,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.422 - INFO - YAW - SOL:139.2px, SAG:141.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.422 - INFO - XY - Merkez:(369,120), Hedef:(320,240), Hata:X:49.0px,Y:-120.0px, PWM:X:1401.4301949834824(SOL),Y:1300(ASAGI), Çıkış:X:98.6,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.457 - INFO - YAW - SOL:139.2px, SAG:141.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.457 - INFO - XY - Merkez:(370,119), Hedef:(320,240), Hata:X:50.0px,Y:-121.0px, PWM:X:1388.0227966337727(SOL),Y:1300(ASAGI), Çıkış:X:112.0,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.489 - INFO - YAW - SOL:139.2px, SAG:140.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.489 - INFO - XY - Merkez:(371,118), Hedef:(320,240), Hata:X:51.0px,Y:-122.0px, PWM:X:1384.8831791419875(SOL),Y:1300(ASAGI), Çıkış:X:115.1,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.522 - INFO - YAW - SOL:139.2px, SAG:140.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.523 - INFO - XY - Merkez:(371,118), Hedef:(320,240), Hata:X:51.0px,Y:-122.0px, PWM:X:1397.3285208797454(SOL),Y:1300(ASAGI), Çıkış:X:102.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.557 - INFO - YAW - SOL:138.2px, SAG:140.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.558 - INFO - XY - Merkez:(371,118), Hedef:(320,240), Hata:X:51.0px,Y:-122.0px, PWM:X:1397.292925605774(SOL),Y:1300(ASAGI), Çıkış:X:102.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.589 - INFO - YAW - SOL:137.3px, SAG:140.2px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.589 - INFO - XY - Merkez:(371,118), Hedef:(320,240), Hata:X:51.0px,Y:-122.0px, PWM:X:1397.2604793596267(SOL),Y:1300(ASAGI), Çıkış:X:102.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.621 - INFO - YAW - SOL:138.3px, SAG:139.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.622 - INFO - XY - Merkez:(371,117), Hedef:(320,240), Hata:X:51.0px,Y:-123.0px, PWM:X:1397.2275452804565(SOL),Y:1300(ASAGI), Çıkış:X:102.8,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.658 - INFO - YAW - SOL:138.2px, SAG:139.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.658 - INFO - XY - Merkez:(372,117), Hedef:(320,240), Hata:X:52.0px,Y:-123.0px, PWM:X:1384.2183192068808(SOL),Y:1300(ASAGI), Çıkış:X:115.8,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.689 - INFO - YAW - SOL:136.3px, SAG:139.2px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.690 - INFO - XY - Merkez:(372,116), Hedef:(320,240), Hata:X:52.0px,Y:-124.0px, PWM:X:1395.1568993377687(SOL),Y:1300(ASAGI), Çıkış:X:104.8,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.722 - INFO - YAW - SOL:137.2px, SAG:139.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.722 - INFO - XY - Merkez:(373,117), Hedef:(320,240), Hata:X:53.0px,Y:-123.0px, PWM:X:1380.9067186117038(SOL),Y:1300(ASAGI), Çıkış:X:119.1,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.758 - INFO - YAW - SOL:137.2px, SAG:139.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.759 - INFO - XY - Merkez:(373,117), Hedef:(320,240), Hata:X:53.0px,Y:-123.0px, PWM:X:1393.0837785387039(SOL),Y:1300(ASAGI), Çıkış:X:106.9,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.789 - INFO - YAW - SOL:137.2px, SAG:139.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.789 - INFO - XY - Merkez:(373,117), Hedef:(320,240), Hata:X:53.0px,Y:-123.0px, PWM:X:1393.0510609292985(SOL),Y:1300(ASAGI), Çıkış:X:106.9,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.822 - INFO - YAW - SOL:138.3px, SAG:139.3px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.822 - INFO - XY - Merkez:(373,116), Hedef:(320,240), Hata:X:53.0px,Y:-124.0px, PWM:X:1393.0164954042434(SOL),Y:1300(ASAGI), Çıkış:X:107.0,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.857 - INFO - YAW - SOL:138.3px, SAG:139.3px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.858 - INFO - XY - Merkez:(373,116), Hedef:(320,240), Hata:X:53.0px,Y:-124.0px, PWM:X:1392.9786836433411(SOL),Y:1300(ASAGI), Çıkış:X:107.0,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.889 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.890 - INFO - XY - Merkez:(372,116), Hedef:(320,240), Hata:X:52.0px,Y:-124.0px, PWM:X:1407.4663302016693(SOL),Y:1300(ASAGI), Çıkış:X:92.5,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.921 - INFO - YAW - SOL:137.2px, SAG:138.3px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.922 - INFO - XY - Merkez:(372,116), Hedef:(320,240), Hata:X:52.0px,Y:-124.0px, PWM:X:1394.9114639472962(SOL),Y:1300(ASAGI), Çıkış:X:105.1,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.958 - INFO - YAW - SOL:136.3px, SAG:139.3px, Fark:-3.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.959 - INFO - XY - Merkez:(372,115), Hedef:(320,240), Hata:X:52.0px,Y:-125.0px, PWM:X:1394.8738007736206(SOL),Y:1300(ASAGI), Çıkış:X:105.1,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:37.989 - INFO - YAW - SOL:136.3px, SAG:138.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:37.990 - INFO - XY - Merkez:(372,115), Hedef:(320,240), Hata:X:52.0px,Y:-125.0px, PWM:X:1394.8412943267822(SOL),Y:1300(ASAGI), Çıkış:X:105.2,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.022 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.022 - INFO - XY - Merkez:(372,115), Hedef:(320,240), Hata:X:52.0px,Y:-125.0px, PWM:X:1394.8075974464416(SOL),Y:1300(ASAGI), Çıkış:X:105.2,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.053 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.053 - INFO - XY - Merkez:(372,115), Hedef:(320,240), Hata:X:52.0px,Y:-125.0px, PWM:X:1394.775268535614(SOL),Y:1300(ASAGI), Çıkış:X:105.2,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.088 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.089 - INFO - XY - Merkez:(372,115), Hedef:(320,240), Hata:X:52.0px,Y:-125.0px, PWM:X:1394.7383841896058(SOL),Y:1300(ASAGI), Çıkış:X:105.3,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.121 - INFO - YAW - SOL:136.2px, SAG:138.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.122 - INFO - XY - Merkez:(371,114), Hedef:(320,240), Hata:X:51.0px,Y:-126.0px, PWM:X:1408.8143583399253(SOL),Y:1300(ASAGI), Çıkış:X:91.2,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.153 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.153 - INFO - XY - Merkez:(371,114), Hedef:(320,240), Hata:X:51.0px,Y:-126.0px, PWM:X:1396.672335586548(SOL),Y:1300(ASAGI), Çıkış:X:103.3,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.189 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.190 - INFO - XY - Merkez:(371,114), Hedef:(320,240), Hata:X:51.0px,Y:-126.0px, PWM:X:1396.63547914505(SOL),Y:1300(ASAGI), Çıkış:X:103.4,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.222 - INFO - YAW - SOL:137.3px, SAG:138.3px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.222 - INFO - XY - Merkez:(372,114), Hedef:(320,240), Hata:X:52.0px,Y:-126.0px, PWM:X:1382.2661117177847(SOL),Y:1300(ASAGI), Çıkış:X:117.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.253 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.254 - INFO - XY - Merkez:(372,113), Hedef:(320,240), Hata:X:52.0px,Y:-127.0px, PWM:X:1394.5688111495972(SOL),Y:1300(ASAGI), Çıkış:X:105.4,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.289 - INFO - YAW - SOL:137.2px, SAG:138.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.290 - INFO - XY - Merkez:(372,114), Hedef:(320,240), Hata:X:52.0px,Y:-126.0px, PWM:X:1394.5314680862427(SOL),Y:1300(ASAGI), Çıkış:X:105.5,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.321 - INFO - YAW - SOL:136.2px, SAG:138.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.321 - INFO - XY - Merkez:(372,114), Hedef:(320,240), Hata:X:52.0px,Y:-126.0px, PWM:X:1394.4986011123658(SOL),Y:1300(ASAGI), Çıkış:X:105.5,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.354 - INFO - YAW - SOL:137.3px, SAG:139.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.354 - INFO - XY - Merkez:(372,115), Hedef:(320,240), Hata:X:52.0px,Y:-125.0px, PWM:X:1394.4646213150024(SOL),Y:1300(ASAGI), Çıkış:X:105.5,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.389 - INFO - YAW - SOL:137.2px, SAG:137.2px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.390 - INFO - XY - Merkez:(373,116), Hedef:(320,240), Hata:X:53.0px,Y:-124.0px, PWM:X:1381.2331262708228(SOL),Y:1300(ASAGI), Çıkış:X:118.8,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.421 - INFO - YAW - SOL:137.3px, SAG:138.3px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.421 - INFO - XY - Merkez:(373,116), Hedef:(320,240), Hata:X:53.0px,Y:-124.0px, PWM:X:1392.393124012947(SOL),Y:1300(ASAGI), Çıkış:X:107.6,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.453 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.453 - INFO - XY - Merkez:(373,117), Hedef:(320,240), Hata:X:53.0px,Y:-123.0px, PWM:X:1392.3593123626708(SOL),Y:1300(ASAGI), Çıkış:X:107.6,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.489 - INFO - YAW - SOL:137.3px, SAG:138.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.490 - INFO - XY - Merkez:(373,118), Hedef:(320,240), Hata:X:53.0px,Y:-122.0px, PWM:X:1392.3206976985932(SOL),Y:1300(ASAGI), Çıkış:X:107.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.521 - INFO - YAW - SOL:137.2px, SAG:138.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.521 - INFO - XY - Merkez:(373,119), Hedef:(320,240), Hata:X:53.0px,Y:-121.0px, PWM:X:1392.2870359134674(SOL),Y:1300(ASAGI), Çıkış:X:107.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.553 - INFO - YAW - SOL:137.2px, SAG:139.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.554 - INFO - XY - Merkez:(373,121), Hedef:(320,240), Hata:X:53.0px,Y:-119.0px, PWM:X:1392.2526437568665(SOL),Y:1300(ASAGI), Çıkış:X:107.7,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.586 - INFO - YAW - SOL:137.2px, SAG:139.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.586 - INFO - XY - Merkez:(373,123), Hedef:(320,240), Hata:X:53.0px,Y:-117.0px, PWM:X:1392.2187090301513(SOL),Y:1300(ASAGI), Çıkış:X:107.8,Y:-200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.620 - INFO - YAW - SOL:139.2px, SAG:139.2px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.621 - INFO - XY - Merkez:(373,126), Hedef:(320,240), Hata:X:53.0px,Y:-114.0px, PWM:X:1392.1818409395219(SOL),Y:1306.0663774056168(ASAGI), Çıkış:X:107.8,Y:-193.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.654 - INFO - YAW - SOL:139.2px, SAG:140.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.655 - INFO - XY - Merkez:(374,129), Hedef:(320,240), Hata:X:54.0px,Y:-111.0px, PWM:X:1378.3250252557896(SOL),Y:1312.9541270143134(ASAGI), Çıkış:X:121.7,Y:-187.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.685 - INFO - YAW - SOL:139.2px, SAG:141.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.685 - INFO - XY - Merkez:(374,134), Hedef:(320,240), Hata:X:54.0px,Y:-106.0px, PWM:X:1390.1119673776627(SOL),Y:1352.2413430577883(ASAGI), Çıkış:X:109.9,Y:-147.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.721 - INFO - YAW - SOL:140.2px, SAG:141.3px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.721 - INFO - XY - Merkez:(374,138), Hedef:(320,240), Hata:X:54.0px,Y:-102.0px, PWM:X:1390.0730979204177(SOL),Y:1339.8070119346878(ASAGI), Çıkış:X:109.9,Y:-160.2, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.753 - INFO - YAW - SOL:140.3px, SAG:142.3px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.754 - INFO - XY - Merkez:(374,144), Hedef:(320,240), Hata:X:54.0px,Y:-96.0px, PWM:X:1390.0383521986007(SOL),Y:1381.8832413587156(ASAGI), Çıkış:X:110.0,Y:-118.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.785 - INFO - YAW - SOL:141.2px, SAG:142.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.786 - INFO - XY - Merkez:(374,150), Hedef:(320,240), Hata:X:54.0px,Y:-90.0px, PWM:X:1390.0034512090683(SOL),Y:1393.5047607720082(ASAGI), Çıkış:X:110.0,Y:-106.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.822 - INFO - YAW - SOL:141.2px, SAG:144.2px, Fark:-3.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.822 - INFO - XY - Merkez:(374,157), Hedef:(320,240), Hata:X:54.0px,Y:-83.0px, PWM:X:1389.9644267416(SOL),Y:1410.6583287755861(ASAGI), Çıkış:X:110.0,Y:-89.3, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.853 - INFO - YAW - SOL:143.2px, SAG:145.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.853 - INFO - XY - Merkez:(375,165), Hedef:(320,240), Hata:X:55.0px,Y:-75.0px, PWM:X:1375.1413394277529(SOL),Y:1451.4330392377135(ASAGI), Çıkış:X:124.9,Y:-48.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.885 - INFO - YAW - SOL:142.2px, SAG:144.2px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.886 - INFO - XY - Merkez:(375,172), Hedef:(320,240), Hata:X:55.0px,Y:-68.0px, PWM:X:1387.8944803094864(SOL),Y:1449.7422944971825(ASAGI), Çıkış:X:112.1,Y:-50.3, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.921 - INFO - YAW - SOL:142.2px, SAG:143.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.921 - INFO - XY - Merkez:(375,179), Hedef:(320,240), Hata:X:55.0px,Y:-61.0px, PWM:X:1387.8550885295867(SOL),Y:1455.2253733130262(ASAGI), Çıkış:X:112.1,Y:-44.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.953 - INFO - YAW - SOL:142.2px, SAG:143.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.954 - INFO - XY - Merkez:(375,186), Hedef:(320,240), Hata:X:55.0px,Y:-54.0px, PWM:X:1387.8195131635666(SOL),Y:1477.5806234433867(ASAGI), Çıkış:X:112.2,Y:-22.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:38.985 - INFO - YAW - SOL:142.2px, SAG:143.2px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:38.985 - INFO - XY - Merkez:(376,193), Hedef:(320,240), Hata:X:56.0px,Y:-47.0px, PWM:X:1373.1580957694296(SOL),Y:1493.3590067065797(ASAGI), Çıkış:X:126.8,Y:-6.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.021 - INFO - YAW - SOL:142.2px, SAG:143.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.021 - INFO - XY - Merkez:(376,199), Hedef:(320,240), Hata:X:56.0px,Y:-41.0px, PWM:X:1385.7435976743698(SOL),Y:1483.4262419295053(ASAGI), Çıkış:X:114.3,Y:-16.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.053 - INFO - YAW - SOL:143.2px, SAG:141.2px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.053 - INFO - XY - Merkez:(377,206), Hedef:(320,240), Hata:X:57.0px,Y:-34.0px, PWM:X:1371.1155629767259(SOL),Y:1519.0564088918036(YUKARI), Çıkış:X:128.9,Y:19.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.085 - INFO - YAW - SOL:144.2px, SAG:144.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.085 - INFO - XY - Merkez:(378,213), Hedef:(320,240), Hata:X:58.0px,Y:-27.0px, PWM:X:1369.103259192466(SOL),Y:1532.874835026746(YUKARI), Çıkış:X:130.9,Y:32.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.118 - INFO - YAW - SOL:143.2px, SAG:144.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.118 - INFO - XY - Merkez:(378,219), Hedef:(320,240), Hata:X:58.0px,Y:-21.0px, PWM:X:1381.6323719215393(SOL),Y:1529.9631786704058(YUKARI), Çıkış:X:118.4,Y:30.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.152 - INFO - YAW - SOL:144.2px, SAG:145.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.153 - INFO - XY-Y - DEADBAND AKTIF | Y Hatası: -13.0px
+2025-11-08 15:01:39.153 - INFO - XY - Merkez:(379,227), Hedef:(320,240), Hata:X:59.0px,Y:-13.0px, PWM:X:1368.2080334637878(SOL),Y:1700(YUKARI), Çıkış:X:131.8,Y:200.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:39.183 - INFO - YAW - SOL:142.2px, SAG:143.2px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.183 - INFO - XY - Merkez:(380,234), Hedef:(320,240), Hata:X:60.0px,Y:-6.0px, PWM:X:1364.2542395233324(SOL),Y:1500.0(ORTA), Çıkış:X:135.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:39.217 - INFO - YAW - SOL:142.1px, SAG:143.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.217 - INFO - XY - Merkez:(382,240), Hedef:(320,240), Hata:X:62.0px,Y:0.0px, PWM:X:1350.1329289884113(SOL),Y:1500.0(ORTA), Çıkış:X:149.9,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:39.251 - INFO - YAW - SOL:143.1px, SAG:144.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.251 - INFO - XY - Merkez:(384,246), Hedef:(320,240), Hata:X:64.0px,Y:6.0px, PWM:X:1345.9579952847434(SOL),Y:1500.0(ORTA), Çıkış:X:154.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:39.285 - INFO - YAW - SOL:142.2px, SAG:144.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.286 - INFO - XY - Merkez:(385,250), Hedef:(320,240), Hata:X:65.0px,Y:10.0px, PWM:X:1355.7142182688474(SOL),Y:1500.0(ORTA), Çıkış:X:144.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:39.317 - INFO - YAW - SOL:142.2px, SAG:143.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.318 - INFO - XY - Merkez:(385,254), Hedef:(320,240), Hata:X:65.0px,Y:14.0px, PWM:X:1367.3827555942535(SOL),Y:1500.0(ORTA), Çıkış:X:132.6,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:39.353 - INFO - YAW - SOL:142.2px, SAG:143.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.354 - INFO - XY-Y - DEADBAND PASIF | Y Hatası: 17.0px
+2025-11-08 15:01:39.354 - INFO - XY - Merkez:(385,257), Hedef:(320,240), Hata:X:65.0px,Y:17.0px, PWM:X:1367.335525994301(SOL),Y:1700(YUKARI), Çıkış:X:132.7,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.385 - INFO - YAW - SOL:142.2px, SAG:144.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.385 - INFO - XY - Merkez:(385,261), Hedef:(320,240), Hata:X:65.0px,Y:21.0px, PWM:X:1367.294619255066(SOL),Y:1592.9481660448682(YUKARI), Çıkış:X:132.7,Y:92.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.417 - INFO - YAW - SOL:142.3px, SAG:143.2px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.417 - INFO - XY - Merkez:(386,264), Hedef:(320,240), Hata:X:66.0px,Y:24.0px, PWM:X:1352.5705494516349(SOL),Y:1586.0572536866243(YUKARI), Çıkış:X:147.4,Y:86.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.453 - INFO - YAW - SOL:143.3px, SAG:143.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.454 - INFO - XY - Merkez:(387,268), Hedef:(320,240), Hata:X:67.0px,Y:28.0px, PWM:X:1352.2598265674758(SOL),Y:1599.8406784421484(YUKARI), Çıkış:X:147.7,Y:99.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.485 - INFO - YAW - SOL:142.3px, SAG:144.2px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.485 - INFO - XY - Merkez:(387,271), Hedef:(320,240), Hata:X:67.0px,Y:31.0px, PWM:X:1363.1616127872467(SOL),Y:1599.9950287195575(YUKARI), Çıkış:X:136.8,Y:100.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.516 - INFO - YAW - SOL:144.2px, SAG:144.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.516 - INFO - XY - Merkez:(387,274), Hedef:(320,240), Hata:X:67.0px,Y:34.0px, PWM:X:1363.119721493721(SOL),Y:1606.4776655946844(YUKARI), Çıkış:X:136.9,Y:106.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.553 - INFO - YAW - SOL:144.2px, SAG:144.2px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.553 - INFO - XY - Merkez:(387,277), Hedef:(320,240), Hata:X:67.0px,Y:37.0px, PWM:X:1363.0702636146546(SOL),Y:1606.628661058117(YUKARI), Çıkış:X:136.9,Y:106.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.585 - INFO - YAW - SOL:144.2px, SAG:144.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.585 - INFO - XY - Merkez:(389,280), Hedef:(320,240), Hata:X:69.0px,Y:40.0px, PWM:X:1333.8395762027853(SOL),Y:1617.9223960429033(YUKARI), Çıkış:X:166.2,Y:117.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.617 - INFO - YAW - SOL:145.2px, SAG:144.1px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.617 - INFO - XY - Merkez:(389,283), Hedef:(320,240), Hata:X:69.0px,Y:43.0px, PWM:X:1358.9823596429824(SOL),Y:1623.7456549945364(YUKARI), Çıkış:X:141.0,Y:123.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.653 - INFO - YAW - SOL:145.2px, SAG:146.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.653 - INFO - XY - Merkez:(390,286), Hedef:(320,240), Hata:X:70.0px,Y:46.0px, PWM:X:1345.80889957294(SOL),Y:1625.573394333956(YUKARI), Çıkış:X:154.2,Y:125.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.685 - INFO - YAW - SOL:145.2px, SAG:145.1px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.685 - INFO - XY - Merkez:(391,290), Hedef:(320,240), Hata:X:71.0px,Y:50.0px, PWM:X:1342.4393589835393(SOL),Y:1650.0227983759971(YUKARI), Çıkış:X:157.6,Y:150.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.716 - INFO - YAW - SOL:146.1px, SAG:147.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.717 - INFO - XY - Merkez:(392,293), Hedef:(320,240), Hata:X:72.0px,Y:53.0px, PWM:X:1340.227593468569(SOL),Y:1644.10663718038(YUKARI), Çıkış:X:159.8,Y:144.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.748 - INFO - YAW - SOL:146.2px, SAG:148.1px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.749 - INFO - XY - Merkez:(392,297), Hedef:(320,240), Hata:X:72.0px,Y:57.0px, PWM:X:1352.7946832370758(SOL),Y:1664.3579933234735(YUKARI), Çıkış:X:147.2,Y:164.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.784 - INFO - YAW - SOL:147.1px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.784 - INFO - XY - Merkez:(394,299), Hedef:(320,240), Hata:X:74.0px,Y:59.0px, PWM:X:1326.29734484371(SOL),Y:1640.792534388191(YUKARI), Çıkış:X:173.7,Y:140.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.814 - INFO - YAW - SOL:147.2px, SAG:148.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.815 - INFO - XY - Merkez:(396,301), Hedef:(320,240), Hata:X:76.0px,Y:61.0px, PWM:X:1318.258469643922(SOL),Y:1648.8247013867867(YUKARI), Çıkış:X:181.7,Y:148.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.849 - INFO - YAW - SOL:147.2px, SAG:149.1px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.849 - INFO - XY - Merkez:(396,302), Hedef:(320,240), Hata:X:76.0px,Y:62.0px, PWM:X:1344.6432716178895(SOL),Y:1635.9693973352507(YUKARI), Çıkış:X:155.4,Y:136.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.884 - INFO - YAW - SOL:148.2px, SAG:149.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.884 - INFO - XY - Merkez:(397,303), Hedef:(320,240), Hata:X:77.0px,Y:63.0px, PWM:X:1331.205360150124(SOL),Y:1637.8553864651583(YUKARI), Çıkış:X:168.8,Y:137.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.917 - INFO - YAW - SOL:148.2px, SAG:149.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.917 - INFO - XY - Merkez:(398,304), Hedef:(320,240), Hata:X:78.0px,Y:64.0px, PWM:X:1328.2420970999383(SOL),Y:1640.8102974280073(YUKARI), Çıkış:X:171.8,Y:140.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.948 - INFO - YAW - SOL:149.2px, SAG:150.1px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.949 - INFO - XY - Merkez:(399,305), Hedef:(320,240), Hata:X:79.0px,Y:65.0px, PWM:X:1325.8055696140455(SOL),Y:1643.2370983542437(YUKARI), Çıkış:X:174.2,Y:143.2, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:39.985 - INFO - YAW - SOL:150.2px, SAG:151.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:39.985 - INFO - XY - Merkez:(400,308), Hedef:(320,240), Hata:X:80.0px,Y:68.0px, PWM:X:1325.4268018415232(SOL),Y:1669.6151461196157(YUKARI), Çıkış:X:174.6,Y:169.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.016 - INFO - YAW - SOL:152.2px, SAG:152.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.017 - INFO - XY - Merkez:(401,312), Hedef:(320,240), Hata:X:81.0px,Y:72.0px, PWM:X:1321.8049940054395(SOL),Y:1694.9372660035813(YUKARI), Çıkış:X:178.2,Y:194.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.048 - INFO - YAW - SOL:153.2px, SAG:153.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.049 - INFO - XY - Merkez:(403,317), Hedef:(320,240), Hata:X:83.0px,Y:77.0px, PWM:X:1305.1985918216124(SOL),Y:1700(YUKARI), Çıkış:X:194.8,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.084 - INFO - YAW - SOL:155.1px, SAG:153.1px, Fark:2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.085 - INFO - XY - Merkez:(404,323), Hedef:(320,240), Hata:X:84.0px,Y:83.0px, PWM:X:1317.2639998572452(SOL),Y:1700(YUKARI), Çıkış:X:182.7,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.116 - INFO - YAW - SOL:155.1px, SAG:157.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.117 - INFO - XY - Merkez:(405,329), Hedef:(320,240), Hata:X:85.0px,Y:89.0px, PWM:X:1313.6231689849026(SOL),Y:1700(YUKARI), Çıkış:X:186.4,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.148 - INFO - YAW - SOL:158.1px, SAG:158.1px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.149 - INFO - XY - Merkez:(406,337), Hedef:(320,240), Hata:X:86.0px,Y:97.0px, PWM:X:1311.6468190868784(SOL),Y:1700(YUKARI), Çıkış:X:188.4,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.185 - INFO - YAW - SOL:158.1px, SAG:157.0px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.185 - INFO - XY - Merkez:(408,343), Hedef:(320,240), Hata:X:88.0px,Y:103.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.216 - INFO - YAW - SOL:158.1px, SAG:158.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.217 - INFO - XY - Merkez:(409,349), Hedef:(320,240), Hata:X:89.0px,Y:109.0px, PWM:X:1305.5120762532915(SOL),Y:1700(YUKARI), Çıkış:X:194.5,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.248 - INFO - YAW - SOL:158.1px, SAG:158.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.249 - INFO - XY - Merkez:(410,351), Hedef:(320,240), Hata:X:90.0px,Y:111.0px, PWM:X:1303.4493267206992(SOL),Y:1700(YUKARI), Çıkış:X:196.6,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.279 - INFO - YAW - SOL:158.1px, SAG:158.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.280 - INFO - XY - Merkez:(411,352), Hedef:(320,240), Hata:X:91.0px,Y:112.0px, PWM:X:1301.1799625975864(SOL),Y:1700(YUKARI), Çıkış:X:198.8,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.316 - INFO - YAW - SOL:157.1px, SAG:157.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.316 - INFO - XY - Merkez:(413,351), Hedef:(320,240), Hata:X:93.0px,Y:111.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.348 - INFO - YAW - SOL:157.1px, SAG:159.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.348 - INFO - XY - Merkez:(415,348), Hedef:(320,240), Hata:X:95.0px,Y:108.0px, PWM:X:1300(SOL),Y:1679.2240363794426(YUKARI), Çıkış:X:200.0,Y:179.2, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.381 - INFO - YAW - SOL:158.1px, SAG:158.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.381 - INFO - XY - Merkez:(418,346), Hedef:(320,240), Hata:X:98.0px,Y:106.0px, PWM:X:1300(SOL),Y:1688.235848051539(YUKARI), Çıkış:X:200.0,Y:188.2, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.415 - INFO - YAW - SOL:159.0px, SAG:158.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.416 - INFO - XY - Merkez:(421,344), Hedef:(320,240), Hata:X:101.0px,Y:104.0px, PWM:X:1300(SOL),Y:1685.7973470021216(YUKARI), Çıkış:X:200.0,Y:185.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.448 - INFO - YAW - SOL:159.0px, SAG:160.1px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.448 - INFO - XY - Merkez:(425,345), Hedef:(320,240), Hata:X:105.0px,Y:105.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.480 - INFO - YAW - SOL:160.0px, SAG:161.1px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.480 - INFO - XY - Merkez:(428,348), Hedef:(320,240), Hata:X:108.0px,Y:108.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.516 - INFO - YAW - SOL:161.0px, SAG:163.1px, Fark:-2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.516 - INFO - XY - Merkez:(429,353), Hedef:(320,240), Hata:X:109.0px,Y:113.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.548 - INFO - YAW - SOL:165.0px, SAG:166.1px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.549 - INFO - XY - Merkez:(431,361), Hedef:(320,240), Hata:X:111.0px,Y:121.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.580 - INFO - YAW - SOL:168.0px, SAG:169.2px, Fark:-1.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.580 - INFO - XY - Merkez:(433,373), Hedef:(320,240), Hata:X:113.0px,Y:133.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.616 - INFO - YAW - SOL:171.0px, SAG:171.4px, Fark:-0.3px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:40.616 - INFO - XY - Merkez:(435,388), Hedef:(320,240), Hata:X:115.0px,Y:148.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:40.647 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.648 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.679 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.680 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.715 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.716 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.748 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.748 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.780 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.780 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.816 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.817 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.847 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.847 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.879 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.880 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.911 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.912 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.947 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.947 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.980 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:40.980 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.012 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.013 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.046 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.047 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.079 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.079 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.112 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.112 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.148 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.148 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.180 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.180 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.211 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.211 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.247 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.248 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.279 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.279 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.312 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.312 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.348 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.348 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.380 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.380 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.412 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.412 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.442 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.443 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.478 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.478 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.511 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.513 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.542 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.542 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.579 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.580 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.612 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.612 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:41.643 - INFO - YAW - DEADBAND AKTIF | Kenar Farkı: -2.13px
+2025-11-08 15:01:41.643 - INFO - YAW - SOL:151.0px, SAG:153.2px, Fark:-2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.644 - INFO - XY - Merkez:(458,398), Hedef:(320,240), Hata:X:138.0px,Y:158.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.679 - INFO - YAW - SOL:151.0px, SAG:152.1px, Fark:-1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.679 - INFO - XY - Merkez:(457,389), Hedef:(320,240), Hata:X:137.0px,Y:149.0px, PWM:X:1300(SOL),Y:1698.467874201151(YUKARI), Çıkış:X:200.0,Y:198.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.712 - INFO - YAW - SOL:150.0px, SAG:152.1px, Fark:-2.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.712 - INFO - XY - Merkez:(458,382), Hedef:(320,240), Hata:X:138.0px,Y:142.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.743 - INFO - YAW - SOL:151.0px, SAG:152.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.743 - INFO - XY - Merkez:(460,375), Hedef:(320,240), Hata:X:140.0px,Y:135.0px, PWM:X:1300(SOL),Y:1679.5730252659903(YUKARI), Çıkış:X:200.0,Y:179.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.780 - INFO - YAW - SOL:150.1px, SAG:153.0px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.781 - INFO - XY - Merkez:(461,371), Hedef:(320,240), Hata:X:141.0px,Y:131.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.812 - INFO - YAW - SOL:150.1px, SAG:154.0px, Fark:-3.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.813 - INFO - XY - Merkez:(463,369), Hedef:(320,240), Hata:X:143.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.843 - INFO - YAW - SOL:151.2px, SAG:154.1px, Fark:-2.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.844 - INFO - XY - Merkez:(466,367), Hedef:(320,240), Hata:X:146.0px,Y:127.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.880 - INFO - YAW - SOL:151.2px, SAG:153.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.880 - INFO - XY - Merkez:(468,368), Hedef:(320,240), Hata:X:148.0px,Y:128.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.912 - INFO - YAW - SOL:151.2px, SAG:152.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.912 - INFO - XY - Merkez:(471,370), Hedef:(320,240), Hata:X:151.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.943 - INFO - YAW - SOL:150.2px, SAG:152.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.943 - INFO - XY - Merkez:(474,370), Hedef:(320,240), Hata:X:154.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:41.976 - INFO - YAW - SOL:150.2px, SAG:152.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:41.977 - INFO - XY - Merkez:(476,370), Hedef:(320,240), Hata:X:156.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.012 - INFO - YAW - SOL:151.3px, SAG:153.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.012 - INFO - XY - Merkez:(477,370), Hedef:(320,240), Hata:X:157.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.043 - INFO - YAW - SOL:150.2px, SAG:153.1px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.043 - INFO - XY - Merkez:(477,370), Hedef:(320,240), Hata:X:157.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.075 - INFO - YAW - SOL:150.2px, SAG:153.1px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.075 - INFO - XY - Merkez:(476,370), Hedef:(320,240), Hata:X:156.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.111 - INFO - YAW - SOL:151.3px, SAG:154.0px, Fark:-2.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.111 - INFO - XY - Merkez:(474,369), Hedef:(320,240), Hata:X:154.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.143 - INFO - YAW - SOL:153.3px, SAG:154.0px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.143 - INFO - XY - Merkez:(473,369), Hedef:(320,240), Hata:X:153.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.176 - INFO - YAW - SOL:154.2px, SAG:153.0px, Fark:1.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.177 - INFO - XY - Merkez:(471,369), Hedef:(320,240), Hata:X:151.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.212 - INFO - YAW - SOL:154.2px, SAG:154.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.212 - INFO - XY - Merkez:(469,370), Hedef:(320,240), Hata:X:149.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.243 - INFO - YAW - SOL:155.2px, SAG:154.0px, Fark:1.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.243 - INFO - XY - Merkez:(468,369), Hedef:(320,240), Hata:X:148.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.275 - INFO - YAW - SOL:155.2px, SAG:154.0px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.275 - INFO - XY - Merkez:(467,369), Hedef:(320,240), Hata:X:147.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.312 - INFO - YAW - SOL:154.2px, SAG:154.0px, Fark:0.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.312 - INFO - XY - Merkez:(465,369), Hedef:(320,240), Hata:X:145.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.343 - INFO - YAW - SOL:153.2px, SAG:154.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.343 - INFO - XY - Merkez:(464,369), Hedef:(320,240), Hata:X:144.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.376 - INFO - YAW - SOL:153.2px, SAG:155.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.376 - INFO - XY - Merkez:(463,369), Hedef:(320,240), Hata:X:143.0px,Y:129.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.412 - INFO - YAW - SOL:152.2px, SAG:154.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.412 - INFO - XY - Merkez:(462,370), Hedef:(320,240), Hata:X:142.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.443 - INFO - YAW - SOL:152.3px, SAG:154.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.443 - INFO - XY - Merkez:(462,370), Hedef:(320,240), Hata:X:142.0px,Y:130.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.476 - INFO - YAW - SOL:153.3px, SAG:155.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.476 - INFO - XY - Merkez:(461,372), Hedef:(320,240), Hata:X:141.0px,Y:132.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.512 - INFO - YAW - SOL:153.2px, SAG:155.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.513 - INFO - XY - Merkez:(460,373), Hedef:(320,240), Hata:X:140.0px,Y:133.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.543 - INFO - YAW - SOL:153.2px, SAG:155.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.543 - INFO - XY - Merkez:(459,374), Hedef:(320,240), Hata:X:139.0px,Y:134.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.576 - INFO - YAW - SOL:153.2px, SAG:155.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.577 - INFO - XY - Merkez:(458,375), Hedef:(320,240), Hata:X:138.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.607 - INFO - YAW - SOL:154.3px, SAG:155.1px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.608 - INFO - XY - Merkez:(457,376), Hedef:(320,240), Hata:X:137.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.643 - INFO - YAW - SOL:154.2px, SAG:155.1px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.643 - INFO - XY - Merkez:(456,376), Hedef:(320,240), Hata:X:136.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.676 - INFO - YAW - SOL:154.2px, SAG:155.1px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.676 - INFO - XY - Merkez:(455,376), Hedef:(320,240), Hata:X:135.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.708 - INFO - YAW - SOL:153.3px, SAG:155.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.708 - INFO - XY - Merkez:(453,376), Hedef:(320,240), Hata:X:133.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.743 - INFO - YAW - SOL:154.2px, SAG:155.0px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.744 - INFO - XY - Merkez:(451,376), Hedef:(320,240), Hata:X:131.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.776 - INFO - YAW - SOL:154.2px, SAG:155.1px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.776 - INFO - XY - Merkez:(450,376), Hedef:(320,240), Hata:X:130.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.808 - INFO - YAW - SOL:154.2px, SAG:156.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.809 - INFO - XY - Merkez:(449,376), Hedef:(320,240), Hata:X:129.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.842 - INFO - YAW - SOL:153.2px, SAG:156.0px, Fark:-2.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.843 - INFO - XY - Merkez:(448,376), Hedef:(320,240), Hata:X:128.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.876 - INFO - YAW - SOL:154.2px, SAG:156.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.876 - INFO - XY - Merkez:(448,376), Hedef:(320,240), Hata:X:128.0px,Y:136.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.908 - INFO - YAW - SOL:154.2px, SAG:155.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.908 - INFO - XY - Merkez:(448,375), Hedef:(320,240), Hata:X:128.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.943 - INFO - YAW - SOL:153.2px, SAG:155.0px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.943 - INFO - XY - Merkez:(447,375), Hedef:(320,240), Hata:X:127.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:42.975 - INFO - YAW - SOL:154.2px, SAG:155.0px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:42.976 - INFO - XY - Merkez:(447,375), Hedef:(320,240), Hata:X:127.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.008 - INFO - YAW - SOL:154.2px, SAG:156.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.009 - INFO - XY - Merkez:(448,375), Hedef:(320,240), Hata:X:128.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.042 - INFO - YAW - SOL:154.2px, SAG:156.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.043 - INFO - XY - Merkez:(449,375), Hedef:(320,240), Hata:X:129.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.076 - INFO - YAW - SOL:154.1px, SAG:155.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.076 - INFO - XY - Merkez:(450,375), Hedef:(320,240), Hata:X:130.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.107 - INFO - YAW - SOL:154.1px, SAG:155.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.108 - INFO - XY - Merkez:(451,375), Hedef:(320,240), Hata:X:131.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.140 - INFO - YAW - SOL:153.2px, SAG:156.0px, Fark:-2.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.140 - INFO - XY - Merkez:(451,375), Hedef:(320,240), Hata:X:131.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.175 - INFO - YAW - SOL:153.2px, SAG:155.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.176 - INFO - XY - Merkez:(451,375), Hedef:(320,240), Hata:X:131.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.208 - INFO - YAW - SOL:153.2px, SAG:156.1px, Fark:-2.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.208 - INFO - XY - Merkez:(449,375), Hedef:(320,240), Hata:X:129.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.240 - INFO - YAW - SOL:154.2px, SAG:155.1px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.241 - INFO - XY - Merkez:(447,375), Hedef:(320,240), Hata:X:127.0px,Y:135.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.275 - INFO - YAW - SOL:154.2px, SAG:155.1px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.276 - INFO - XY - Merkez:(445,374), Hedef:(320,240), Hata:X:125.0px,Y:134.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.308 - INFO - YAW - SOL:154.2px, SAG:155.1px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.308 - INFO - XY - Merkez:(443,373), Hedef:(320,240), Hata:X:123.0px,Y:133.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.340 - INFO - YAW - SOL:154.3px, SAG:156.1px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.341 - INFO - XY - Merkez:(439,373), Hedef:(320,240), Hata:X:119.0px,Y:133.0px, PWM:X:1307.2049956630492(SOL),Y:1700(YUKARI), Çıkış:X:192.8,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.376 - INFO - YAW - SOL:154.3px, SAG:155.1px, Fark:-0.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.376 - INFO - XY - Merkez:(436,372), Hedef:(320,240), Hata:X:116.0px,Y:132.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.408 - INFO - YAW - SOL:153.3px, SAG:156.1px, Fark:-2.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.408 - INFO - XY - Merkez:(432,372), Hedef:(320,240), Hata:X:112.0px,Y:132.0px, PWM:X:1321.8975650868542(SOL),Y:1700(YUKARI), Çıkış:X:178.1,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.440 - INFO - YAW - SOL:153.2px, SAG:155.1px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.440 - INFO - XY - Merkez:(428,372), Hedef:(320,240), Hata:X:108.0px,Y:132.0px, PWM:X:1330.0286417379893(SOL),Y:1700(YUKARI), Çıkış:X:170.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.475 - INFO - YAW - SOL:153.2px, SAG:155.0px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.475 - INFO - XY - Merkez:(426,372), Hedef:(320,240), Hata:X:106.0px,Y:132.0px, PWM:X:1306.4199987125496(SOL),Y:1700(YUKARI), Çıkış:X:193.6,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.507 - INFO - YAW - SOL:154.2px, SAG:156.0px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.507 - INFO - XY - Merkez:(423,372), Hedef:(320,240), Hata:X:103.0px,Y:132.0px, PWM:X:1327.3370750593733(SOL),Y:1700(YUKARI), Çıkış:X:172.7,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.540 - INFO - YAW - SOL:154.2px, SAG:156.0px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.540 - INFO - XY - Merkez:(420,372), Hedef:(320,240), Hata:X:100.0px,Y:132.0px, PWM:X:1331.5150644145763(SOL),Y:1700(YUKARI), Çıkış:X:168.5,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.576 - INFO - YAW - SOL:153.2px, SAG:156.0px, Fark:-2.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.577 - INFO - XY - Merkez:(417,371), Hedef:(320,240), Hata:X:97.0px,Y:131.0px, PWM:X:1334.5685338578842(SOL),Y:1700(YUKARI), Çıkış:X:165.4,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.608 - INFO - YAW - SOL:155.3px, SAG:157.0px, Fark:-1.8px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.609 - INFO - XY - Merkez:(414,371), Hedef:(320,240), Hata:X:94.0px,Y:131.0px, PWM:X:1345.0790947893267(SOL),Y:1700(YUKARI), Çıkış:X:154.9,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.640 - INFO - YAW - SOL:155.2px, SAG:156.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.641 - INFO - XY - Merkez:(411,371), Hedef:(320,240), Hata:X:91.0px,Y:131.0px, PWM:X:1350.6836926084184(SOL),Y:1700(YUKARI), Çıkış:X:149.3,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.675 - INFO - YAW - SOL:155.2px, SAG:157.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.675 - INFO - XY - Merkez:(407,370), Hedef:(320,240), Hata:X:87.0px,Y:130.0px, PWM:X:1367.3803266719167(SOL),Y:1700(YUKARI), Çıkış:X:132.6,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.708 - INFO - YAW - SOL:155.2px, SAG:156.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.708 - INFO - XY - Merkez:(405,369), Hedef:(320,240), Hata:X:85.0px,Y:129.0px, PWM:X:1349.6595653782645(SOL),Y:1700(YUKARI), Çıkış:X:150.3,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.740 - INFO - YAW - SOL:155.2px, SAG:157.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.740 - INFO - XY - Merkez:(401,368), Hedef:(320,240), Hata:X:81.0px,Y:128.0px, PWM:X:1383.2027495109155(SOL),Y:1700(YUKARI), Çıkış:X:116.8,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.772 - INFO - YAW - SOL:156.1px, SAG:157.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.772 - INFO - XY - Merkez:(398,367), Hedef:(320,240), Hata:X:78.0px,Y:127.0px, PWM:X:1376.4741069941629(SOL),Y:1700(YUKARI), Çıkış:X:123.5,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.808 - INFO - YAW - SOL:155.1px, SAG:157.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.808 - INFO - XY - Merkez:(394,366), Hedef:(320,240), Hata:X:74.0px,Y:126.0px, PWM:X:1391.549376854884(SOL),Y:1700(YUKARI), Çıkış:X:108.5,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.839 - INFO - YAW - SOL:155.1px, SAG:158.0px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.840 - INFO - XY - Merkez:(390,363), Hedef:(320,240), Hata:X:70.0px,Y:123.0px, PWM:X:1406.0108820107826(SOL),Y:1700(YUKARI), Çıkış:X:94.0,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.872 - INFO - YAW - SOL:155.1px, SAG:157.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.872 - INFO - XY - Merkez:(385,361), Hedef:(320,240), Hata:X:65.0px,Y:121.0px, PWM:X:1426.9404994939707(SOL),Y:1700(YUKARI), Çıkış:X:73.1,Y:200.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.908 - INFO - YAW - SOL:155.1px, SAG:158.0px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.909 - INFO - XY - Merkez:(381,357), Hedef:(320,240), Hata:X:61.0px,Y:117.0px, PWM:X:1416.8100004597547(SOL),Y:1691.2973288568894(YUKARI), Çıkış:X:83.2,Y:191.3, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.939 - INFO - YAW - SOL:155.1px, SAG:158.0px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.939 - INFO - XY - Merkez:(377,354), Hedef:(320,240), Hata:X:57.0px,Y:114.0px, PWM:X:1433.060482357356(SOL),Y:1690.105765701397(YUKARI), Çıkış:X:66.9,Y:190.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:43.972 - INFO - YAW - SOL:154.1px, SAG:159.0px, Fark:-4.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:43.973 - INFO - XY - Merkez:(373,350), Hedef:(320,240), Hata:X:53.0px,Y:110.0px, PWM:X:1436.8229429952203(SOL),Y:1673.3555960440033(YUKARI), Çıkış:X:63.2,Y:173.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.008 - INFO - YAW - SOL:154.1px, SAG:158.0px, Fark:-3.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.009 - INFO - XY - Merkez:(370,348), Hedef:(320,240), Hata:X:50.0px,Y:108.0px, PWM:X:1427.9763653369(SOL),Y:1695.282867388075(YUKARI), Çıkış:X:72.0,Y:195.3, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.040 - INFO - YAW - SOL:154.1px, SAG:158.0px, Fark:-3.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.041 - INFO - XY - Merkez:(368,345), Hedef:(320,240), Hata:X:48.0px,Y:105.0px, PWM:X:1423.857309528043(SOL),Y:1673.9001489240748(YUKARI), Çıkış:X:76.1,Y:173.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.072 - INFO - YAW - SOL:154.1px, SAG:157.0px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.073 - INFO - XY - Merkez:(367,342), Hedef:(320,240), Hata:X:47.0px,Y:102.0px, PWM:X:1413.3779642777308(SOL),Y:1667.7466686860569(YUKARI), Çıkış:X:86.6,Y:167.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.108 - INFO - YAW - SOL:155.0px, SAG:156.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.109 - INFO - XY - Merkez:(366,340), Hedef:(320,240), Hata:X:46.0px,Y:100.0px, PWM:X:1413.926559966203(SOL),Y:1679.2471979541997(YUKARI), Çıkış:X:86.1,Y:179.2, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.140 - INFO - YAW - SOL:154.0px, SAG:156.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.141 - INFO - XY - Merkez:(365,338), Hedef:(320,240), Hata:X:45.0px,Y:98.0px, PWM:X:1417.1716940306278(SOL),Y:1672.7587507297574(YUKARI), Çıkış:X:82.8,Y:172.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.172 - INFO - YAW - SOL:154.1px, SAG:157.0px, Fark:-3.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.172 - INFO - XY - Merkez:(364,334), Hedef:(320,240), Hata:X:44.0px,Y:94.0px, PWM:X:1419.4729173241724(SOL),Y:1638.6411122779955(YUKARI), Çıkış:X:80.5,Y:138.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.208 - INFO - YAW - SOL:155.1px, SAG:156.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.209 - INFO - XY - Merkez:(364,332), Hedef:(320,240), Hata:X:44.0px,Y:92.0px, PWM:X:1406.680890455246(SOL),Y:1664.0414084661347(YUKARI), Çıkış:X:93.3,Y:164.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.240 - INFO - YAW - SOL:155.0px, SAG:157.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.241 - INFO - XY - Merkez:(364,330), Hedef:(320,240), Hata:X:44.0px,Y:90.0px, PWM:X:1406.6529819583893(SOL),Y:1656.5806846283053(YUKARI), Çıkış:X:93.3,Y:156.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.272 - INFO - YAW - SOL:154.0px, SAG:156.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.272 - INFO - XY - Merkez:(365,327), Hedef:(320,240), Hata:X:45.0px,Y:87.0px, PWM:X:1391.888749075191(SOL),Y:1637.6566795695642(YUKARI), Çıkış:X:108.1,Y:137.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.305 - INFO - YAW - SOL:155.0px, SAG:157.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.305 - INFO - XY - Merkez:(365,325), Hedef:(320,240), Hata:X:45.0px,Y:85.0px, PWM:X:1404.5950610494613(SOL),Y:1647.6344387217302(YUKARI), Çıkış:X:95.4,Y:147.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.340 - INFO - YAW - SOL:154.0px, SAG:156.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.341 - INFO - XY - Merkez:(366,322), Hedef:(320,240), Hata:X:46.0px,Y:82.0px, PWM:X:1391.3413231289958(SOL),Y:1632.3159626457086(YUKARI), Çıkış:X:108.7,Y:132.3, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.372 - INFO - YAW - SOL:155.0px, SAG:156.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.372 - INFO - XY - Merkez:(366,319), Hedef:(320,240), Hata:X:46.0px,Y:79.0px, PWM:X:1402.5333724355698(SOL),Y:1621.8135198127115(YUKARI), Çıkış:X:97.5,Y:121.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.404 - INFO - YAW - SOL:154.0px, SAG:155.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.404 - INFO - XY - Merkez:(367,316), Hedef:(320,240), Hata:X:47.0px,Y:76.0px, PWM:X:1388.1714080902932(SOL),Y:1617.082271091994(YUKARI), Çıkış:X:111.8,Y:117.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.440 - INFO - YAW - SOL:153.0px, SAG:154.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.441 - INFO - XY - Merkez:(367,312), Hedef:(320,240), Hata:X:47.0px,Y:72.0px, PWM:X:1400.468785624504(SOL),Y:1602.016209016699(YUKARI), Çıkış:X:99.5,Y:102.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.471 - INFO - YAW - SOL:153.0px, SAG:155.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.471 - INFO - XY - Merkez:(367,309), Hedef:(320,240), Hata:X:47.0px,Y:69.0px, PWM:X:1400.4402176570893(SOL),Y:1600.682005962117(YUKARI), Çıkış:X:99.6,Y:100.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.504 - INFO - YAW - SOL:153.1px, SAG:155.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.505 - INFO - XY - Merkez:(368,305), Hedef:(320,240), Hata:X:48.0px,Y:65.0px, PWM:X:1386.486021406934(SOL),Y:1584.5222526468965(YUKARI), Çıkış:X:113.5,Y:84.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.540 - INFO - YAW - SOL:152.1px, SAG:154.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.540 - INFO - XY - Merkez:(368,302), Hedef:(320,240), Hata:X:48.0px,Y:62.0px, PWM:X:1398.3736485195159(SOL),Y:1592.7309090812853(YUKARI), Çıkış:X:101.6,Y:92.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.572 - INFO - YAW - SOL:153.1px, SAG:153.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.573 - INFO - XY - Merkez:(369,298), Hedef:(320,240), Hata:X:49.0px,Y:58.0px, PWM:X:1383.890526145011(SOL),Y:1568.4869176758311(YUKARI), Çıkış:X:116.1,Y:68.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.604 - INFO - YAW - SOL:153.1px, SAG:152.0px, Fark:1.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.605 - INFO - XY - Merkez:(370,295), Hedef:(320,240), Hata:X:50.0px,Y:55.0px, PWM:X:1381.8496390807413(SOL),Y:1574.9493646032452(YUKARI), Çıkış:X:118.2,Y:74.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.640 - INFO - YAW - SOL:152.1px, SAG:153.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.641 - INFO - XY - Merkez:(371,293), Hedef:(320,240), Hata:X:51.0px,Y:53.0px, PWM:X:1381.1974764291006(SOL),Y:1586.215871632689(YUKARI), Çıkış:X:118.8,Y:86.2, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.671 - INFO - YAW - SOL:153.1px, SAG:152.0px, Fark:1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.672 - INFO - XY - Merkez:(372,290), Hedef:(320,240), Hata:X:52.0px,Y:50.0px, PWM:X:1377.3277142634524(SOL),Y:1563.6594896170932(YUKARI), Çıkış:X:122.7,Y:63.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.705 - INFO - YAW - SOL:151.1px, SAG:153.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.705 - INFO - XY - Merkez:(372,287), Hedef:(320,240), Hata:X:52.0px,Y:47.0px, PWM:X:1390.206169090271(SOL),Y:1560.6154598652563(YUKARI), Çıkış:X:109.8,Y:60.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.741 - INFO - YAW - SOL:152.1px, SAG:152.0px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.741 - INFO - XY - Merkez:(373,285), Hedef:(320,240), Hata:X:53.0px,Y:45.0px, PWM:X:1377.0036262076148(SOL),Y:1570.1322080392288(YUKARI), Çıkış:X:123.0,Y:70.1, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.773 - INFO - YAW - SOL:151.1px, SAG:152.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.773 - INFO - XY - Merkez:(373,282), Hedef:(320,240), Hata:X:53.0px,Y:42.0px, PWM:X:1388.1343632125854(SOL),Y:1548.88855902338(YUKARI), Çıkış:X:111.9,Y:48.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.804 - INFO - YAW - SOL:151.1px, SAG:152.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.805 - INFO - XY - Merkez:(373,279), Hedef:(320,240), Hata:X:53.0px,Y:39.0px, PWM:X:1388.1008293056489(SOL),Y:1542.5771054734232(YUKARI), Çıkış:X:111.9,Y:42.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.836 - INFO - YAW - SOL:152.1px, SAG:152.0px, Fark:0.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.837 - INFO - XY - Merkez:(373,278), Hedef:(320,240), Hata:X:53.0px,Y:38.0px, PWM:X:1388.0670333242417(SOL),Y:1565.9944368971978(YUKARI), Çıkış:X:111.9,Y:66.0, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.872 - INFO - YAW - SOL:151.1px, SAG:153.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.873 - INFO - XY - Merkez:(374,276), Hedef:(320,240), Hata:X:54.0px,Y:36.0px, PWM:X:1375.0019619896998(SOL),Y:1552.5104056295017(YUKARI), Çıkış:X:125.0,Y:52.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.905 - INFO - YAW - SOL:151.1px, SAG:152.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.905 - INFO - XY - Merkez:(374,274), Hedef:(320,240), Hata:X:54.0px,Y:34.0px, PWM:X:1385.9929340600968(SOL),Y:1545.8426502036452(YUKARI), Çıkış:X:114.0,Y:45.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.936 - INFO - YAW - SOL:151.0px, SAG:152.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.936 - INFO - XY - Merkez:(375,273), Hedef:(320,240), Hata:X:55.0px,Y:33.0px, PWM:X:1371.099754917002(SOL),Y:1555.748112835697(YUKARI), Çıkış:X:128.9,Y:55.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:44.972 - INFO - YAW - SOL:151.1px, SAG:153.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:44.973 - INFO - XY - Merkez:(374,271), Hedef:(320,240), Hata:X:54.0px,Y:31.0px, PWM:X:1396.8569119792335(SOL),Y:1542.7563090851143(YUKARI), Çıkış:X:103.1,Y:42.8, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.003 - INFO - YAW - SOL:152.1px, SAG:152.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.003 - INFO - XY - Merkez:(374,270), Hedef:(320,240), Hata:X:54.0px,Y:30.0px, PWM:X:1385.8862118053437(SOL),Y:1549.560118479219(YUKARI), Çıkış:X:114.1,Y:49.6, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.036 - INFO - YAW - SOL:152.1px, SAG:152.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.037 - INFO - XY - Merkez:(372,268), Hedef:(320,240), Hata:X:52.0px,Y:28.0px, PWM:X:1413.8155210971206(SOL),Y:1534.7006737717657(YUKARI), Çıkış:X:86.2,Y:34.7, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.072 - INFO - YAW - SOL:151.1px, SAG:152.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.073 - INFO - XY - Merkez:(371,266), Hedef:(320,240), Hata:X:51.0px,Y:26.0px, PWM:X:1402.9265445792983(SOL),Y:1532.4642688652634(YUKARI), Çıkış:X:97.1,Y:32.5, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.105 - INFO - YAW - SOL:151.1px, SAG:152.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.105 - INFO - XY - Merkez:(368,265), Hedef:(320,240), Hata:X:48.0px,Y:25.0px, PWM:X:1434.7030957753964(SOL),Y:1540.3943260968124(YUKARI), Çıkış:X:65.3,Y:40.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.137 - INFO - YAW - SOL:151.2px, SAG:152.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.137 - INFO - XY - Merkez:(366,263), Hedef:(320,240), Hata:X:46.0px,Y:23.0px, PWM:X:1427.049557576355(SOL),Y:1523.4198777230854(YUKARI), Çıkış:X:73.0,Y:23.4, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.172 - INFO - YAW - SOL:150.1px, SAG:150.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.172 - INFO - XY - Merkez:(364,261), Hedef:(320,240), Hata:X:44.0px,Y:21.0px, PWM:X:1428.5767094685982(SOL),Y:1521.8766768417006(YUKARI), Çıkış:X:71.4,Y:21.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.204 - INFO - YAW - SOL:150.1px, SAG:151.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.204 - INFO - XY - Merkez:(362,259), Hedef:(320,240), Hata:X:42.0px,Y:19.0px, PWM:X:1434.2705846146855(SOL),Y:1516.1703566878066(YUKARI), Çıkış:X:65.7,Y:16.2, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.237 - INFO - YAW - SOL:149.1px, SAG:150.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.237 - INFO - XY - Merkez:(359,256), Hedef:(320,240), Hata:X:39.0px,Y:16.0px, PWM:X:1452.640970355745(SOL),Y:1498.0866809858935(ASAGI), Çıkış:X:47.4,Y:-1.9, Deadband:X:HAYIR,Y:HAYIR
+2025-11-08 15:01:45.273 - INFO - YAW - SOL:148.1px, SAG:150.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.273 - INFO - XY-Y - DEADBAND AKTIF | Y Hatası: 14.0px
+2025-11-08 15:01:45.273 - INFO - XY - Merkez:(356,254), Hedef:(320,240), Hata:X:36.0px,Y:14.0px, PWM:X:1454.560622134101(SOL),Y:1323.1499034831704(ASAGI), Çıkış:X:45.4,Y:-176.9, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.304 - INFO - YAW - SOL:149.1px, SAG:150.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.305 - INFO - XY - Merkez:(353,251), Hedef:(320,240), Hata:X:33.0px,Y:11.0px, PWM:X:1465.8403463502639(SOL),Y:1500.0(ORTA), Çıkış:X:34.2,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.336 - INFO - YAW - SOL:149.1px, SAG:150.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.337 - INFO - XY - Merkez:(350,249), Hedef:(320,240), Hata:X:30.0px,Y:9.0px, PWM:X:1471.3110668017(SOL),Y:1500.0(ORTA), Çıkış:X:28.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.373 - INFO - YAW - SOL:148.1px, SAG:149.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.373 - INFO - XY - Merkez:(347,246), Hedef:(320,240), Hata:X:27.0px,Y:6.0px, PWM:X:1472.3303387836274(SOL),Y:1500.0(ORTA), Çıkış:X:27.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.404 - INFO - YAW - SOL:148.1px, SAG:149.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.405 - INFO - XY - Merkez:(344,244), Hedef:(320,240), Hata:X:24.0px,Y:4.0px, PWM:X:1483.64611718708(SOL),Y:1500.0(ORTA), Çıkış:X:16.4,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.436 - INFO - YAW - SOL:148.1px, SAG:150.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.437 - INFO - XY - Merkez:(341,243), Hedef:(320,240), Hata:X:21.0px,Y:3.0px, PWM:X:1488.981193523916(SOL),Y:1500.0(ORTA), Çıkış:X:11.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.469 - INFO - YAW - SOL:148.1px, SAG:149.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.469 - INFO - XY - Merkez:(337,241), Hedef:(320,240), Hata:X:17.0px,Y:1.0px, PWM:X:1508.9356888502073(SAG),Y:1500.0(ORTA), Çıkış:X:-8.9,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.505 - INFO - YAW - SOL:148.1px, SAG:150.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.505 - INFO - XY-X - DEADBAND AKTIF | X Hatası: 14.0px
+2025-11-08 15:01:45.505 - INFO - XY - Merkez:(334,240), Hedef:(320,240), Hata:X:14.0px,Y:0.0px, PWM:X:1689.670134931138(SAG),Y:1500.0(ORTA), Çıkış:X:-189.7,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:45.537 - INFO - YAW - SOL:149.1px, SAG:149.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.537 - INFO - XY - Merkez:(331,239), Hedef:(320,240), Hata:X:11.0px,Y:-1.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:45.568 - INFO - YAW - SOL:149.1px, SAG:150.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.568 - INFO - XY - Merkez:(326,237), Hedef:(320,240), Hata:X:6.0px,Y:-3.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:45.605 - INFO - YAW - SOL:148.1px, SAG:150.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.605 - INFO - XY - Merkez:(321,236), Hedef:(320,240), Hata:X:1.0px,Y:-4.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:45.635 - INFO - YAW - SOL:149.1px, SAG:150.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.636 - INFO - XY - Merkez:(315,234), Hedef:(320,240), Hata:X:-5.0px,Y:-6.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:45.669 - INFO - YAW - SOL:148.1px, SAG:150.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.669 - INFO - XY - Merkez:(308,232), Hedef:(320,240), Hata:X:-12.0px,Y:-8.0px, PWM:X:1500.0(ORTA),Y:1500.0(ORTA), Çıkış:X:0.0,Y:0.0, Deadband:X:EVET,Y:EVET
+2025-11-08 15:01:45.705 - INFO - YAW - SOL:149.1px, SAG:149.0px, Fark:0.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.705 - INFO - XY-X - DEADBAND PASIF | X Hatası: -19.0px
+2025-11-08 15:01:45.705 - INFO - XY - Merkez:(301,231), Hedef:(320,240), Hata:X:-19.0px,Y:-9.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.736 - INFO - YAW - SOL:149.0px, SAG:150.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.736 - INFO - XY - Merkez:(294,229), Hedef:(320,240), Hata:X:-26.0px,Y:-11.0px, PWM:X:1642.432856105251(SAG),Y:1500.0(ORTA), Çıkış:X:-142.4,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.768 - INFO - YAW - SOL:149.1px, SAG:150.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.769 - INFO - XY - Merkez:(287,227), Hedef:(320,240), Hata:X:-33.0px,Y:-13.0px, PWM:X:1652.184373615533(SAG),Y:1500.0(ORTA), Çıkış:X:-152.2,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.805 - INFO - YAW - SOL:148.1px, SAG:150.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.806 - INFO - XY - Merkez:(279,227), Hedef:(320,240), Hata:X:-41.0px,Y:-13.0px, PWM:X:1669.2265574604494(SAG),Y:1500.0(ORTA), Çıkış:X:-169.2,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.836 - INFO - YAW - SOL:149.0px, SAG:150.0px, Fark:-1.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.836 - INFO - XY - Merkez:(271,227), Hedef:(320,240), Hata:X:-49.0px,Y:-13.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.869 - INFO - YAW - SOL:149.0px, SAG:151.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.870 - INFO - XY - Merkez:(263,228), Hedef:(320,240), Hata:X:-57.0px,Y:-12.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.904 - INFO - YAW - SOL:150.1px, SAG:151.0px, Fark:-0.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.905 - INFO - XY - Merkez:(254,228), Hedef:(320,240), Hata:X:-66.0px,Y:-12.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.936 - INFO - YAW - SOL:149.1px, SAG:151.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.937 - INFO - XY - Merkez:(247,230), Hedef:(320,240), Hata:X:-73.0px,Y:-10.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:45.968 - INFO - YAW - SOL:150.1px, SAG:152.0px, Fark:-1.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:45.968 - INFO - XY - Merkez:(240,232), Hedef:(320,240), Hata:X:-80.0px,Y:-8.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.000 - INFO - YAW - SOL:150.1px, SAG:153.0px, Fark:-2.9px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:46.000 - INFO - XY - Merkez:(235,234), Hedef:(320,240), Hata:X:-85.0px,Y:-6.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.036 - INFO - YAW - SOL:152.0px, SAG:154.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:46.037 - INFO - XY - Merkez:(232,237), Hedef:(320,240), Hata:X:-88.0px,Y:-3.0px, PWM:X:1700(SAG),Y:1500.0(ORTA), Çıkış:X:-200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.068 - INFO - YAW - SOL:153.0px, SAG:155.0px, Fark:-2.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:46.069 - INFO - XY - Merkez:(233,239), Hedef:(320,240), Hata:X:-87.0px,Y:-1.0px, PWM:X:1661.5493127581406(SAG),Y:1500.0(ORTA), Çıkış:X:-161.5,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.100 - INFO - YAW - SOL:153.0px, SAG:156.1px, Fark:-3.0px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:46.101 - INFO - XY - Merkez:(236,240), Hedef:(320,240), Hata:X:-84.0px,Y:0.0px, PWM:X:1630.5200734976268(SAG),Y:1500.0(ORTA), Çıkış:X:-130.5,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.136 - INFO - YAW - SOL:153.1px, SAG:156.2px, Fark:-3.1px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:46.137 - INFO - XY - Merkez:(244,242), Hedef:(320,240), Hata:X:-76.0px,Y:2.0px, PWM:X:1563.292907516683(SAG),Y:1500.0(ORTA), Çıkış:X:-63.3,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.167 - INFO - YAW - SOL:153.3px, SAG:157.5px, Fark:-4.2px, PWM:1500.0, Çıkış:0.0, Yön:DUZ, Deadband:EVET
+2025-11-08 15:01:46.168 - INFO - XY - Merkez:(256,244), Hedef:(320,240), Hata:X:-64.0px,Y:4.0px, PWM:X:1473.2623756136745(SOL),Y:1500.0(ORTA), Çıkış:X:26.7,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.200 - INFO - YAW - DEADBAND PASIF | Kenar Farkı: -7.13px
+2025-11-08 15:01:46.201 - INFO - YAW - SOL:154.1px, SAG:161.3px, Fark:-7.1px, PWM:1300, Çıkış:-200.0, Yön:SOL, Deadband:HAYIR
+2025-11-08 15:01:46.201 - INFO - XY - Merkez:(274,245), Hedef:(320,240), Hata:X:-46.0px,Y:5.0px, PWM:X:1375.788671499973(SOL),Y:1500.0(ORTA), Çıkış:X:124.2,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.236 - INFO - YAW - SOL:158.1px, SAG:167.3px, Fark:-9.2px, PWM:1395.611508072284, Çıkış:-104.4, Yön:SOL, Deadband:HAYIR
+2025-11-08 15:01:46.237 - INFO - XY - Merkez:(298,249), Hedef:(320,240), Hata:X:-22.0px,Y:9.0px, PWM:X:1300(SOL),Y:1500.0(ORTA), Çıkış:X:200.0,Y:0.0, Deadband:X:HAYIR,Y:EVET
+2025-11-08 15:01:46.267 - INFO - YAW - SOL:162.1px, SAG:171.1px, Fark:-9.0px, PWM:1462.2864569097728, Çıkış:-37.7, Yön:SOL, Deadband:HAYIR
+2025-11-08 15:01:46.268 - INFO - XY-X - DEADBAND AKTIF | X Hatası: 11.0px
+2025-11-08 15:01:46.268 - INFO - XY-Y - DEADBAND PASIF | Y Hatası: 19.0px
+2025-11-08 15:01:46.268 - INFO - XY - Merkez:(331,259), Hedef:(320,240), Hata:X:11.0px,Y:19.0px, PWM:X:1300(SOL),Y:1700(YUKARI), Çıkış:X:200.0,Y:200.0, Deadband:X:EVET,Y:HAYIR
+2025-11-08 15:01:46.299 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.300 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.335 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.336 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.368 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.368 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.399 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.399 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.435 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.435 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.468 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.468 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.499 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.499 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.536 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.536 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.567 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.567 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.599 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.599 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.632 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.632 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.667 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.667 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.698 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.699 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.731 - WARNING - YAW - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.732 - WARNING - XY - Marker tespit edilemedi - Nötr pozisyon
+2025-11-08 15:01:46.734 - INFO - Kullanici cikis talebi...
+2025-11-08 15:01:46.734 - INFO - Kaynaklar temizleniyor...
+2025-11-08 15:01:46.760 - INFO - === PROGRAM SONLANDIRILDI ===
