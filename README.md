@@ -1,6 +1,6 @@
 # UUV Position Stabilization Control System
 
-Modular robot control system with Pixhawk integration. Provides QR code detection and 4-axis stabilization.
+UUV system with Pixhawk integration. Provides QR code detection and 4-axis stabilization.
 
 ## Project Structure
 
@@ -175,4 +175,5 @@ Files in the project root directory are original test codes:
 ## License
 
 This project is for educational and research purposes.
+
 
