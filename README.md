@@ -18,10 +18,11 @@ UUV_Position_Stabilization/
 │   ├── main.py              # Main control script
 │   └── README.md           # Detailed documentation
 ├── run_uuv_control.py      # Easy execution script
-├── yaw90.py                # Original yaw control example
-├── yaw.py                  # Original yaw image processing
-├── fwd_bwd.py              # Original forward/backward control
-├── center.py               # Original center control
+├── examples/
+│   └── yaw90.py                # Original yaw control example
+│   └── yaw.py                  # Original yaw image processing
+│   └──fwd_bwd.py              # Original forward/backward control
+│   └──center.py               # Original center control
 └── README.md               # This file
 ```
 
@@ -174,3 +175,4 @@ Files in the project root directory are original test codes:
 ## License
 
 This project is for educational and research purposes.
+
