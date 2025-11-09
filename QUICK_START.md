@@ -14,17 +14,42 @@ pip install pymavlink opencv-python numpy
 
 ## 2. Run the Code
 
-### Method 1: Easy Execution Script (Recommended)
+### With Pixhawk (Real Hardware)
+
+#### Method 1: Easy Execution Script (Recommended)
 
 ```bash
 python run_uuv_control.py
 ```
 
-### Method 2: Run as Module
+#### Method 2: Run as Module
 
 ```bash
 python -m uuv_control.main
 ```
+
+### Without Pixhawk (Simulation Mode - For Testing)
+
+If you don't have a Pixhawk available, you can test the system:
+
+```bash
+python run_uuv_control_sim.py
+```
+
+**Simulation Mode:**
+- No Pixhawk hardware required
+- All Pixhawk commands are commented out (original code preserved)
+- Pixhawk operations are simulated with print statements
+- PWM values are printed to console every second
+- Perfect for testing image processing and control logic
+- All control functions work normally
+
+**What you can test:**
+- Camera and image processing
+- ArUco marker detection
+- PID controller calculations
+- Control signal generation
+- Visualization and display
 
 ## 3. Configuration
 
@@ -58,12 +83,21 @@ control_system = UUVControlSystem(
 
 ## 4. Pre-Run Checks
 
+### With Pixhawk:
 - Is Pixhawk connection ready?
 - Is camera working?
 - Are required Python packages installed?
 - Are ArUco markers ready?
 
+### Without Pixhawk (Simulation Mode):
+- Is camera working?
+- Are required Python packages installed?
+- Are ArUco markers ready?
+- Note: Pixhawk is not required in simulation mode
+
 ## 5. Execution
+
+### With Pixhawk:
 
 1. Start Pixhawk (or SITL simulation)
 2. Connect camera
@@ -71,6 +105,15 @@ control_system = UUVControlSystem(
    ```bash
    python run_uuv_control.py
    ```
+
+### Without Pixhawk (Simulation Mode):
+
+1. Connect camera
+2. Run the simulation script:
+   ```bash
+   python run_uuv_control_sim.py
+   ```
+3. Watch console output for PWM values that would be sent to Pixhawk
 
 ## 6. Exit
 
@@ -98,9 +141,13 @@ Change camera index or ensure camera is connected.
 - Check connection string
 - Ensure Pixhawk is running
 - Check firewall settings (for UDP/TCP)
+- **Alternative**: Use simulation mode (`run_uuv_control_sim.py`) to test without Pixhawk
 
 ## Notes
 
-- Log file is created on first run: `uuv_control_YYYYMMDD_HHMMSS.log`
+- Log file is created on first run: 
+  - With Pixhawk: `uuv_control_YYYYMMDD_HHMMSS.log`
+  - Simulation mode: `uuv_control_sim_YYYYMMDD_HHMMSS.log`
 - Robot stays in neutral position when marker is not detected
 - All channels are at neutral position (1500 PWM value)
+- In simulation mode, PWM values are printed to console instead of being sent to Pixhawk

@@ -80,9 +80,32 @@ control_system.run()
 
 ### Command Line Execution
 
+#### With Pixhawk
+
 ```bash
 python -m uuv_control.main
 ```
+
+or
+
+```bash
+python run_uuv_control.py
+```
+
+#### Without Pixhawk (Simulation Mode)
+
+For testing without Pixhawk hardware:
+
+```bash
+python run_uuv_control_sim.py
+```
+
+**Simulation Mode:**
+- Pixhawk commands are commented out (original code preserved)
+- All Pixhawk operations are simulated with print statements
+- PWM values are printed to console instead of being sent
+- Perfect for testing image processing and control logic without hardware
+- Log file: `uuv_control_sim_YYYYMMDD_HHMMSS.log`
 
 ### Connection String Examples
 
