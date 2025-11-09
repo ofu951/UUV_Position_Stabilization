@@ -22,8 +22,8 @@ Modular robot control system with Pixhawk integration. Provides QR code detectio
 - Python 3.7 or higher
 - Git
 - Camera (for image processing)
-- Pixhawk (optional - simulation mode available)
-
+- Flight Controller
+  
 ### Step 1: Clone the Repository
 
 #### Option A: Using Setup Scripts (Recommended)
@@ -387,3 +387,4 @@ Files in the `examples/` directory are original test codes:
 ## License
 
 This project is for educational and research purposes.
+
