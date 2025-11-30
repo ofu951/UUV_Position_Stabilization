@@ -1,6 +1,6 @@
 """
 Image Processing and QR Code Detection Module
-ArUco marker detection and information extraction
+ArUco marker detection and information extraction with pose estimation
 """
 
 import cv2
@@ -10,23 +10,51 @@ import logging
 
 
 class ImageProcessor:
-    """Image processing and marker detection class"""
+    """Image processing and marker detection class with pose estimation"""
     
-    def __init__(self, aruco_dict_type=cv2.aruco.DICT_4X4_50):
+    def __init__(self, aruco_dict_type=cv2.aruco.DICT_4X4_50, 
+                 marker_size=0.1, camera_matrix=None, dist_coeffs=None):
         """
         Initialize image processor
         
         Args:
             aruco_dict_type: ArUco dictionary type
+            marker_size: Marker size in meters (default: 0.1m = 10cm)
+            camera_matrix: Camera calibration matrix (3x3). If None, uses default values
+            dist_coeffs: Distortion coefficients. If None, uses default values
         """
         self.aruco_dict = cv2.aruco.getPredefinedDictionary(aruco_dict_type)
         self.aruco_params = cv2.aruco.DetectorParameters()
         self.detector = cv2.aruco.ArucoDetector(self.aruco_dict, self.aruco_params)
         
+        # Marker size in meters
+        self.marker_size = marker_size
+        
+        # Camera calibration parameters
+        # Default values for a typical webcam (can be calibrated for better accuracy)
+        if camera_matrix is None:
+            # Default camera matrix (assumes 640x480 resolution)
+            # These values should be calibrated for your specific camera
+            self.camera_matrix = np.array([
+                [800.0, 0.0, 320.0],
+                [0.0, 800.0, 240.0],
+                [0.0, 0.0, 1.0]
+            ], dtype=np.float32)
+        else:
+            self.camera_matrix = camera_matrix
+        
+        if dist_coeffs is None:
+            # Default distortion coefficients (no distortion)
+            self.dist_coeffs = np.zeros((4, 1), dtype=np.float32)
+        else:
+            self.dist_coeffs = dist_coeffs
+        
         # FPS calculation
         self.frame_count = 0
         self.fps = 0
         self.start_time = time.time()
+        
+        logging.info(f"[IMAGE_PROCESSOR] Initialized with marker_size={marker_size}m")
     
     def detect_markers(self, image):
         """
@@ -46,9 +74,83 @@ class ImageProcessor:
         
         return corners, ids
     
+    def estimate_pose(self, corners, ids):
+        """
+        Estimate pose (position and orientation) of ArUco markers
+        
+        Args:
+            corners: Marker corner points
+            ids: Marker IDs
+            
+        Returns:
+            list: List of pose dictionaries with x, y, z, roll, pitch, yaw or None
+        """
+        if corners is None or len(corners) == 0:
+            return None
+        
+        poses = []
+        
+        for i, corner in enumerate(corners):
+            # Estimate pose for single marker
+            rvec, tvec, _ = cv2.aruco.estimatePoseSingleMarkers(
+                corner, self.marker_size, self.camera_matrix, self.dist_coeffs
+            )
+            
+            # Extract translation (position)
+            tvec = tvec[0][0]  # Shape: (3,)
+            x = float(tvec[0])
+            y = float(tvec[1])
+            z = float(tvec[2])
+            
+            # Extract rotation
+            rvec = rvec[0][0]  # Shape: (3,)
+            
+            # Convert rotation vector to rotation matrix
+            rotation_matrix, _ = cv2.Rodrigues(rvec)
+            
+            # Convert rotation matrix to Euler angles (roll, pitch, yaw)
+            # Using ZYX convention (yaw-pitch-roll)
+            sy = np.sqrt(rotation_matrix[0, 0] ** 2 + rotation_matrix[1, 0] ** 2)
+            
+            singular = sy < 1e-6
+            
+            if not singular:
+                roll = np.arctan2(rotation_matrix[2, 1], rotation_matrix[2, 2])
+                pitch = np.arctan2(-rotation_matrix[2, 0], sy)
+                yaw = np.arctan2(rotation_matrix[1, 0], rotation_matrix[0, 0])
+            else:
+                roll = np.arctan2(-rotation_matrix[1, 2], rotation_matrix[1, 1])
+                pitch = np.arctan2(-rotation_matrix[2, 0], sy)
+                yaw = 0
+            
+            # Convert to degrees
+            roll_deg = np.degrees(roll)
+            pitch_deg = np.degrees(pitch)
+            yaw_deg = np.degrees(yaw)
+            
+            marker_id = int(ids[i][0]) if ids is not None and i < len(ids) else -1
+            
+            poses.append({
+                'id': marker_id,
+                'x': x,
+                'y': y,
+                'z': z,
+                'roll': roll_deg,
+                'pitch': pitch_deg,
+                'yaw': yaw_deg,
+                'roll_rad': roll,
+                'pitch_rad': pitch,
+                'yaw_rad': yaw,
+                'rvec': rvec,
+                'tvec': tvec,
+                'rotation_matrix': rotation_matrix
+            })
+        
+        return poses
+    
     def calculate_marker_info(self, corners):
         """
-        Calculate marker information
+        Calculate marker information (2D image-based info)
         
         Args:
             corners: Marker corner points

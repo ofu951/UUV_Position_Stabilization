@@ -34,7 +34,8 @@ class UUVControlSystem:
     _instance = None
     
     def __init__(self, connection_string='udp:127.0.0.1:14551', 
-                 camera_index=0, frame_width=640, frame_height=480):
+                 camera_index=0, frame_width=640, frame_height=480,
+                 marker_size=0.1, show_video=False):
         """
         Initialize control system
         
@@ -43,15 +44,18 @@ class UUVControlSystem:
             camera_index: Camera index
             frame_width: Image width
             frame_height: Image height
+            marker_size: ArUco marker size in meters (default: 0.1m = 10cm)
+            show_video: Whether to show video window (default: False - terminal only mode)
         """
         self.frame_width = frame_width
         self.frame_height = frame_height
+        self.show_video = show_video
         
         # Pixhawk connection
         self.pixhawk = PixhawkConnection(connection_string)
         
-        # Image processing
-        self.image_processor = ImageProcessor()
+        # Image processing with pose estimation
+        self.image_processor = ImageProcessor(marker_size=marker_size)
         
         # Controllers
         self.forward_controller = ForwardController(target_area=20000)
@@ -66,6 +70,9 @@ class UUVControlSystem:
         # Running state
         self.running = False
         self.shutting_down = False
+        
+        # Pose information for terminal output
+        self.last_pose_info = None
         
         # Set global instance for signal handler
         UUVControlSystem._instance = self
@@ -177,6 +184,13 @@ class UUVControlSystem:
             f"Marker: {'DETECTED' if marker_info else 'NOT DETECTED'}"
         ]
         
+        # Add pose information if available
+        if self.last_pose_info:
+            pose = self.last_pose_info
+            control_text.append("")
+            control_text.append(f"POSE: X:{pose['x']:.3f}m Y:{pose['y']:.3f}m Z:{pose['z']:.3f}m")
+            control_text.append(f"      Roll:{pose['roll']:.1f}° Pitch:{pose['pitch']:.1f}° Yaw:{pose['yaw']:.1f}°")
+        
         y_offset = 30
         for i, text in enumerate(control_text):
             color = (255, 255, 255)
@@ -194,6 +208,8 @@ class UUVControlSystem:
                 color = (0, 255, 0) if self.pixhawk.armed else (0, 0, 255)
             elif 'DETECTED' in text:
                 color = (0, 255, 0) if marker_info else (0, 0, 255)
+            elif 'POSE' in text:
+                color = (0, 255, 255)
             
             cv2.putText(frame, text, (10, y_offset + i * 25),
                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, color, 2)
@@ -228,10 +244,26 @@ class UUVControlSystem:
         logging.info("  Channel 5 (Forward): X axis (Forward/Backward)")
         logging.info("  Channel 6 (Lateral): Y axis (Right/Left)")
         logging.info("=" * 60)
-        logging.info("Press 'q' key or Ctrl+C to exit")
+        logging.info("ArUco Pose Estimation: ACTIVE")
+        logging.info("Terminal output: x, y, z (meters), roll, pitch, yaw (degrees)")
+        if self.show_video:
+            logging.info("Video window: ENABLED")
+            logging.info("Press 'q' key or Ctrl+C to exit")
+        else:
+            logging.info("Video window: DISABLED (Terminal only mode - no GUI)")
+            logging.info("Press Ctrl+C to exit")
+        logging.info("=" * 60)
         logging.info("")
         
+        # Detection statistics
+        frame_count = 0
+        detection_count = 0
+        
         self.running = True
+        
+        # Detection statistics
+        frame_count = 0
+        detection_count = 0
         
         try:
             while self.running:
@@ -240,9 +272,40 @@ class UUVControlSystem:
                     logging.warning("Frame could not be read!")
                     continue
                 
+                frame_count += 1
+                
                 # Marker detection
                 corners, ids = self.image_processor.detect_markers(frame)
+                
+                # Pose estimation (x, y, z, roll, pitch, yaw)
+                pose_info = self.image_processor.estimate_pose(corners, ids)
+                
+                # Legacy marker info for backward compatibility with controllers
                 marker_info = self.image_processor.calculate_marker_info(corners)
+                
+                # Print pose information to terminal (ArUco pose estimation output)
+                # This is the main output - no video window needed, just terminal data
+                # Similar to dualaruco.py approach: terminal-only mode
+                if pose_info:
+                    detection_count += 1
+                    for pose in pose_info:
+                        self.last_pose_info = pose
+                        # Print pose data (similar format to dualaruco.py)
+                        # Clear line and print pose data
+                        print(f"\r[ArUco Pose] ID:{pose['id']:2d} | "
+                              f"X:{pose['x']:7.3f}m | Y:{pose['y']:7.3f}m | Z:{pose['z']:7.3f}m | "
+                              f"Roll:{pose['roll']:7.2f}° | Pitch:{pose['pitch']:7.2f}° | Yaw:{pose['yaw']:7.2f}°", 
+                              end='', flush=True)
+                    
+                    # Log detailed info every 30 frames (~1 second at 30fps)
+                    if frame_count % 30 == 0:
+                        detection_rate = (detection_count / frame_count) * 100
+                        logging.info(f"📍 Detection rate: {detection_rate:.1f}% | "
+                                   f"Markers: {[p['id'] for p in pose_info]} | "
+                                   f"Pos: ({pose_info[0]['x']:.3f}, {pose_info[0]['y']:.3f}, {pose_info[0]['z']:.3f})m | "
+                                   f"RPY: ({pose_info[0]['roll']:.1f}°, {pose_info[0]['pitch']:.1f}°, {pose_info[0]['yaw']:.1f}°)")
+                else:
+                    print("\r[ArUco Pose] No marker detected" + " " * 60, end='', flush=True)
                 
                 # Calculate control signals
                 forward_pwm = self.forward_controller.calculate_control(marker_info)
@@ -271,15 +334,53 @@ class UUVControlSystem:
                     0               # Ch8: (ignore)
                 ])
                 
-                # Visualization
-                result_frame = self.draw_control_info(frame, corners, ids, marker_info)
-                cv2.imshow("UUV Control System", result_frame)
-                
-                # Exit control
-                key = cv2.waitKey(1) & 0xFF
-                if key == ord('q'):
-                    logging.info("User exit request...")
-                    break
+                # Visualization (if enabled)
+                # Note: When show_video=False, only terminal output is shown (no GUI window)
+                if self.show_video:
+                    result_frame = self.draw_control_info(frame, corners, ids, marker_info)
+                    # Draw pose axis on frame
+                    if pose_info:
+                        for pose in pose_info:
+                            # Draw coordinate axes
+                            rvec = pose['rvec']
+                            tvec = pose['tvec']
+                            axis_length = 0.05  # 5cm axis length
+                            axis_points = np.float32([
+                                [0, 0, 0],
+                                [axis_length, 0, 0],
+                                [0, axis_length, 0],
+                                [0, 0, -axis_length]
+                            ]).reshape(-1, 3)
+                            img_points, _ = cv2.projectPoints(
+                                axis_points, rvec, tvec, 
+                                self.image_processor.camera_matrix, 
+                                self.image_processor.dist_coeffs
+                            )
+                            img_points = np.int32(img_points).reshape(-1, 2)
+                            
+                            # Draw axes (X: red, Y: green, Z: blue)
+                            cv2.line(result_frame, tuple(img_points[0]), tuple(img_points[1]), (0, 0, 255), 3)  # X - Red
+                            cv2.line(result_frame, tuple(img_points[0]), tuple(img_points[2]), (0, 255, 0), 3)  # Y - Green
+                            cv2.line(result_frame, tuple(img_points[0]), tuple(img_points[3]), (255, 0, 0), 3)  # Z - Blue
+                            
+                            # Add pose text
+                            center = corners[0][0].mean(axis=0).astype(int)
+                            pose_text = f"X:{pose['x']:.2f}m Y:{pose['y']:.2f}m Z:{pose['z']:.2f}m"
+                            cv2.putText(result_frame, pose_text, 
+                                      (center[0] - 100, center[1] + 50),
+                                      cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
+                            rpy_text = f"R:{pose['roll']:.1f}° P:{pose['pitch']:.1f}° Y:{pose['yaw']:.1f}°"
+                            cv2.putText(result_frame, rpy_text, 
+                                      (center[0] - 100, center[1] + 70),
+                                      cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
+                    
+                    cv2.imshow("UUV Control System", result_frame)
+                    
+                    # Exit control
+                    key = cv2.waitKey(1) & 0xFF
+                    if key == ord('q'):
+                        logging.info("\nUser exit request...")
+                        break
                 
                 # Short delay (for performance)
                 time.sleep(0.01)
@@ -331,10 +432,11 @@ class UUVControlSystem:
                 self.cap.release()
                 logging.info("[SHUTDOWN] Camera released")
             
-            # Step 5: Close OpenCV windows
-            logging.info("[SHUTDOWN] Step 5: Closing OpenCV windows...")
-            cv2.destroyAllWindows()
-            logging.info("[SHUTDOWN] OpenCV windows closed")
+            # Step 5: Close OpenCV windows (if video was enabled)
+            if self.show_video:
+                logging.info("[SHUTDOWN] Step 5: Closing OpenCV windows...")
+                cv2.destroyAllWindows()
+                logging.info("[SHUTDOWN] OpenCV windows closed")
             
             logging.info("=" * 60)
             logging.info("SAFE SHUTDOWN COMPLETED")
@@ -380,12 +482,18 @@ def main():
     # - 'COM3' (Windows serial connection)
     connection_string = 'udp:127.0.0.1:14551'
     
+    # ArUco marker size in meters (adjust according to your marker size)
+    # Common sizes: 0.05m (5cm), 0.1m (10cm), 0.2m (20cm)
+    marker_size = 0.1  # 10cm default
+    
     # Initialize control system
     control_system = UUVControlSystem(
         connection_string=connection_string,
         camera_index=0,
         frame_width=640,
-        frame_height=480
+        frame_height=480,
+        marker_size=marker_size,
+        show_video=False  # Set to True to enable video window, False for terminal only
     )
     
     # Run

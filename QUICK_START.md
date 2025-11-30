@@ -1,6 +1,53 @@
 # Quick Start Guide
 
-## 1. Install Requirements
+## 1. Setup Virtual Environment (Recommended)
+
+Since modern Linux systems use externally-managed Python environments, it's recommended to use a virtual environment:
+
+### Automatic Setup (Recommended)
+
+```bash
+# Run the setup script
+./setup_venv.sh
+```
+
+This will:
+- Create a virtual environment in `venv/` directory
+- Install all required packages
+- Set up everything automatically
+
+### Manual Setup
+
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate
+
+# Install requirements
+pip install -r requirements.txt
+```
+
+### Using the Virtual Environment
+
+After setup, you can either:
+
+**Option 1: Activate manually**
+```bash
+source venv/bin/activate
+python3 run_uuv_control.py
+deactivate  # When done
+```
+
+**Option 2: Use the run script (automatically activates venv)**
+```bash
+./run_with_venv.sh
+```
+
+## 2. Install Requirements (Alternative - System-wide)
+
+If you prefer to install system-wide (not recommended on modern Linux):
 
 ```bash
 pip install -r requirements.txt
@@ -12,20 +59,35 @@ or manually:
 pip install pymavlink opencv-python numpy
 ```
 
-## 2. Run the Code
+**Note:** On modern Linux systems (Ubuntu 22.04+, Debian 12+), you may need to use `--break-system-packages` flag or create a virtual environment instead.
+
+## 3. Run the Code
 
 ### With Pixhawk (Real Hardware)
 
 #### Method 1: Easy Execution Script (Recommended)
 
+**With virtual environment:**
 ```bash
-python run_uuv_control.py
+./run_with_venv.sh
+```
+
+**Or manually activate venv first:**
+```bash
+source venv/bin/activate
+python3 run_uuv_control.py
+```
+
+**Without virtual environment:**
+```bash
+python3 run_uuv_control.py
 ```
 
 #### Method 2: Run as Module
 
 ```bash
-python -m uuv_control.main
+# With virtual environment activated
+python3 -m uuv_control.main
 ```
 
 ### Without Pixhawk (Simulation Mode - For Testing)
@@ -51,7 +113,7 @@ python run_uuv_control_sim.py
 - Control signal generation
 - Visualization and display
 
-## 3. Configuration
+## 4. Configuration
 
 ### Pixhawk Connection
 
@@ -81,7 +143,7 @@ control_system = UUVControlSystem(
 )
 ```
 
-## 4. Pre-Run Checks
+## 5. Pre-Run Checks
 
 ### With Pixhawk:
 - Is Pixhawk connection ready?
@@ -95,7 +157,7 @@ control_system = UUVControlSystem(
 - Are ArUco markers ready?
 - Note: Pixhawk is not required in simulation mode
 
-## 5. Execution
+## 6. Execution
 
 ### With Pixhawk:
 
@@ -115,7 +177,7 @@ control_system = UUVControlSystem(
    ```
 3. Watch console output for PWM values that would be sent to Pixhawk
 
-## 6. Exit
+## 7. Exit
 
 - Press 'q' key to exit
 - Or stop with Ctrl+C
@@ -123,14 +185,44 @@ control_system = UUVControlSystem(
 
 ## Troubleshooting
 
-### Import Error
+### Import Error / ModuleNotFoundError
 
-If you get an import error:
+**If you get an import error or "ModuleNotFoundError":**
 
-```bash
-# Run as module
-python -m uuv_control.main
-```
+1. **Make sure virtual environment is activated:**
+   ```bash
+   source venv/bin/activate
+   ```
+
+2. **Or use the run script:**
+   ```bash
+   ./run_with_venv.sh
+   ```
+
+3. **Or run as module:**
+   ```bash
+   python3 -m uuv_control.main
+   ```
+
+4. **If packages are missing, reinstall:**
+   ```bash
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+### Externally-Managed Environment Error
+
+If you see "externally-managed-environment" error:
+
+1. **Use virtual environment (recommended):**
+   ```bash
+   ./setup_venv.sh
+   ```
+
+2. **Or use --break-system-packages (not recommended):**
+   ```bash
+   pip install --break-system-packages -r requirements.txt
+   ```
 
 ### Camera Not Found
 
